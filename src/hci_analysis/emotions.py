@@ -12,6 +12,37 @@ MODEL_DIR = (
     / "onnx"
 )
 
+EMOTION_CODES: dict[str, str] = {
+    "admiration": "A",
+    "amusement": "B",
+    "approval": "C",
+    "caring": "D",
+    "desire": "E",
+    "excitement": "F",
+    "gratitude": "G",
+    "joy": "H",
+    "love": "I",
+    "optimism": "J",
+    "pride": "K",
+    "relief": "L",
+    "anger": "M",
+    "annoyance": "N",
+    "disappointment": "O",
+    "disapproval": "P",
+    "disgust": "Q",
+    "embarrassment": "R",
+    "fear": "S",
+    "grief": "T",
+    "nervousness": "U",
+    "remorse": "V",
+    "sadness": "W",
+    "confusion": "X",
+    "curiosity": "Y",
+    "realization": "Z",
+    "surprise": "@A",
+    "neutral": "@C",
+}
+
 EMOTION_LABELS_ZH: dict[str, str] = {
     "admiration": "讚賞",
     "amusement": "有趣",

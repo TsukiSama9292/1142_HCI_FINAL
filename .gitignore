@@ -4,8 +4,8 @@ __pycache__/
 .venv/
 *.egg-info/
 .env
-*.jsonl
 *.ass
+*.jsonl
 
-models/
 logs/
+models/

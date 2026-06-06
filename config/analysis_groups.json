@@ -1,0 +1,25 @@
+{
+  "groups": {
+    "外掛爽感型": {
+      "meta": { "strategy": "power_fantasy", "label": "Power Fantasy" },
+      "sns": [
+        { "sn": 31622, "title": "我想成為影之強者！ [5]", "short": "影之強者 第5集", "range": "10:00~15:36" },
+        { "sn": 11351, "title": "關於我轉生變成史萊姆這檔事 [14]", "short": "史萊姆 第14集", "range": "9:10~14:46" }
+      ]
+    },
+    "心理折磨型": {
+      "meta": { "strategy": "psychological", "label": "Psychological Torture" },
+      "sns": [
+        { "sn": 14464, "title": "Re：從零開始的異世界生活 新編集版 [2B]", "short": "re:0 第2集B", "range": "11:52~17:28" },
+        { "sn": 8649,  "title": "來自深淵 [10]", "short": "來自深淵 第10集", "range": "10:47~16:23" }
+      ]
+    },
+    "搞笑解構型": {
+      "meta": { "strategy": "comedy", "label": "Comedy Deconstruction" },
+      "sns": [
+        { "sn": 27444, "title": "與變成了異世界美少女的大叔一起冒險 [1]", "short": "異世界美少女大叔 第1集", "range": "2:17~5:53" },
+        { "sn": 7296,  "title": "為美好的世界獻上祝福！ [3]", "short": "為美好世界 第3集", "range": "6:17~11:53" }
+      ]
+    }
+  }
+}
