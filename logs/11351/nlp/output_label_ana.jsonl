@@ -1,0 +1,43 @@
+{"segment_start": "0:09:04.00", "segment_end": "0:09:12.00", "danmaku_count": 5, "emotion": {"@C": 0.6, "C": 0.2, "M": 0.2}}
+{"segment_start": "0:09:12.00", "segment_end": "0:09:20.00", "danmaku_count": 8, "emotion": {"@C": 0.375, "N": 0.125, "X": 0.125, "T": 0.125, "B": 0.125, "M": 0.125}}
+{"segment_start": "0:09:20.00", "segment_end": "0:09:28.00", "danmaku_count": 6, "emotion": {"@C": 0.8333, "M": 0.1667}}
+{"segment_start": "0:09:28.00", "segment_end": "0:09:36.00", "danmaku_count": 12, "emotion": {"@C": 0.5833, "X": 0.0833, "C": 0.0833, "F": 0.0833, "N": 0.0833, "H": 0.0833}}
+{"segment_start": "0:09:36.00", "segment_end": "0:09:44.00", "danmaku_count": 13, "emotion": {"@C": 0.6923, "N": 0.1538, "Y": 0.0769, "A": 0.0769}}
+{"segment_start": "0:09:44.00", "segment_end": "0:09:52.00", "danmaku_count": 60, "emotion": {"@C": 0.65, "M": 0.0833, "B": 0.05, "Z": 0.05, "Y": 0.0333, "N": 0.0333, "@A": 0.0167, "P": 0.0167, "A": 0.0167, "C": 0.0167, "X": 0.0167, "Q": 0.0167}}
+{"segment_start": "0:09:52.00", "segment_end": "0:10:00.00", "danmaku_count": 56, "emotion": {"@C": 0.5536, "M": 0.0893, "Y": 0.0714, "N": 0.0714, "Q": 0.0714, "Z": 0.0536, "H": 0.0357, "B": 0.0179, "C": 0.0179, "E": 0.0179}}
+{"segment_start": "0:10:00.00", "segment_end": "0:10:08.00", "danmaku_count": 33, "emotion": {"@C": 0.5758, "N": 0.1515, "M": 0.0909, "A": 0.0606, "P": 0.0303, "K": 0.0303, "@A": 0.0303, "B": 0.0303}}
+{"segment_start": "0:10:08.00", "segment_end": "0:10:16.00", "danmaku_count": 12, "emotion": {"@C": 0.5, "M": 0.1667, "Y": 0.1667, "N": 0.0833, "C": 0.0833}}
+{"segment_start": "0:10:16.00", "segment_end": "0:10:24.00", "danmaku_count": 10, "emotion": {"@C": 0.9, "W": 0.1}}
+{"segment_start": "0:10:24.00", "segment_end": "0:10:32.00", "danmaku_count": 48, "emotion": {"W": 0.5625, "@C": 0.2917, "Z": 0.0417, "P": 0.0208, "R": 0.0208, "B": 0.0208, "N": 0.0208, "F": 0.0208}}
+{"segment_start": "0:10:32.00", "segment_end": "0:10:40.00", "danmaku_count": 67, "emotion": {"W": 0.7612, "@C": 0.1642, "D": 0.0149, "P": 0.0149, "F": 0.0149, "B": 0.0149, "M": 0.0149}}
+{"segment_start": "0:10:40.00", "segment_end": "0:10:48.00", "danmaku_count": 15, "emotion": {"W": 0.5333, "@C": 0.4667}}
+{"segment_start": "0:10:48.00", "segment_end": "0:10:56.00", "danmaku_count": 11, "emotion": {"@C": 0.7273, "W": 0.2727}}
+{"segment_start": "0:10:56.00", "segment_end": "0:11:04.00", "danmaku_count": 17, "emotion": {"@C": 0.7059, "F": 0.1176, "@A": 0.0588, "M": 0.0588, "D": 0.0588}}
+{"segment_start": "0:11:04.00", "segment_end": "0:11:12.00", "danmaku_count": 19, "emotion": {"@C": 0.7368, "Z": 0.0526, "C": 0.0526, "@A": 0.0526, "E": 0.0526, "H": 0.0526}}
+{"segment_start": "0:11:12.00", "segment_end": "0:11:20.00", "danmaku_count": 21, "emotion": {"@C": 0.7143, "A": 0.0952, "B": 0.0476, "Z": 0.0476, "I": 0.0476, "Q": 0.0476}}
+{"segment_start": "0:11:20.00", "segment_end": "0:11:28.00", "danmaku_count": 35, "emotion": {"@C": 0.6286, "I": 0.0571, "Y": 0.0571, "X": 0.0571, "G": 0.0286, "N": 0.0286, "M": 0.0286, "P": 0.0286, "Z": 0.0286, "L": 0.0286, "B": 0.0286}}
+{"segment_start": "0:11:28.00", "segment_end": "0:11:36.00", "danmaku_count": 32, "emotion": {"@C": 0.625, "Y": 0.125, "B": 0.0625, "M": 0.0625, "F": 0.0312, "J": 0.0312, "N": 0.0312, "Q": 0.0312}}
+{"segment_start": "0:11:36.00", "segment_end": "0:11:44.00", "danmaku_count": 21, "emotion": {"@C": 0.619, "N": 0.0952, "G": 0.0476, "B": 0.0476, "O": 0.0476, "C": 0.0476, "L": 0.0476, "J": 0.0476}}
+{"segment_start": "0:11:44.00", "segment_end": "0:11:52.00", "danmaku_count": 11, "emotion": {"@C": 0.7273, "L": 0.0909, "P": 0.0909, "W": 0.0909}}
+{"segment_start": "0:11:52.00", "segment_end": "0:12:00.00", "danmaku_count": 8, "emotion": {"@C": 0.5, "B": 0.25, "G": 0.125, "J": 0.125}}
+{"segment_start": "0:12:00.00", "segment_end": "0:12:08.00", "danmaku_count": 14, "emotion": {"@C": 0.7143, "A": 0.1429, "I": 0.0714, "C": 0.0714}}
+{"segment_start": "0:12:08.00", "segment_end": "0:12:16.00", "danmaku_count": 24, "emotion": {"@C": 0.75, "F": 0.0833, "I": 0.0417, "O": 0.0417, "K": 0.0417, "B": 0.0417}}
+{"segment_start": "0:12:16.00", "segment_end": "0:12:24.00", "danmaku_count": 53, "emotion": {"@C": 0.7358, "Y": 0.0377, "F": 0.0377, "M": 0.0377, "@A": 0.0377, "B": 0.0189, "X": 0.0189, "A": 0.0189, "N": 0.0189, "I": 0.0189, "H": 0.0189}}
+{"segment_start": "0:12:24.00", "segment_end": "0:12:32.00", "danmaku_count": 29, "emotion": {"@C": 0.6552, "B": 0.069, "A": 0.069, "N": 0.069, "X": 0.069, "K": 0.0345, "D": 0.0345}}
+{"segment_start": "0:12:32.00", "segment_end": "0:12:40.00", "danmaku_count": 19, "emotion": {"@C": 0.6842, "C": 0.0526, "D": 0.0526, "B": 0.0526, "A": 0.0526, "M": 0.0526, "K": 0.0526}}
+{"segment_start": "0:12:40.00", "segment_end": "0:12:48.00", "danmaku_count": 19, "emotion": {"@C": 0.6316, "N": 0.1579, "C": 0.1053, "M": 0.0526, "Z": 0.0526}}
+{"segment_start": "0:12:48.00", "segment_end": "0:12:56.00", "danmaku_count": 16, "emotion": {"@C": 0.625, "M": 0.125, "Z": 0.0625, "B": 0.0625, "Y": 0.0625, "A": 0.0625}}
+{"segment_start": "0:12:56.00", "segment_end": "0:13:04.00", "danmaku_count": 17, "emotion": {"@C": 0.6471, "Z": 0.1176, "H": 0.0588, "@A": 0.0588, "K": 0.0588, "Y": 0.0588}}
+{"segment_start": "0:13:04.00", "segment_end": "0:13:12.00", "danmaku_count": 18, "emotion": {"@C": 0.6667, "N": 0.0556, "Z": 0.0556, "@A": 0.0556, "A": 0.0556, "B": 0.0556, "Y": 0.0556}}
+{"segment_start": "0:13:12.00", "segment_end": "0:13:20.00", "danmaku_count": 22, "emotion": {"@C": 0.5455, "Z": 0.1364, "N": 0.0455, "B": 0.0455, "C": 0.0455, "M": 0.0455, "Y": 0.0455, "K": 0.0455, "@A": 0.0455}}
+{"segment_start": "0:13:20.00", "segment_end": "0:13:28.00", "danmaku_count": 14, "emotion": {"@C": 0.9286, "Z": 0.0714}}
+{"segment_start": "0:13:28.00", "segment_end": "0:13:36.00", "danmaku_count": 9, "emotion": {"@C": 0.6667, "Y": 0.2222, "M": 0.1111}}
+{"segment_start": "0:13:36.00", "segment_end": "0:13:44.00", "danmaku_count": 21, "emotion": {"@C": 0.7619, "A": 0.0476, "F": 0.0476, "C": 0.0476, "D": 0.0476, "O": 0.0476}}
+{"segment_start": "0:13:44.00", "segment_end": "0:13:52.00", "danmaku_count": 16, "emotion": {"@C": 0.875, "Z": 0.0625, "C": 0.0625}}
+{"segment_start": "0:13:52.00", "segment_end": "0:14:00.00", "danmaku_count": 12, "emotion": {"@C": 0.5, "M": 0.1667, "D": 0.0833, "@A": 0.0833, "C": 0.0833, "I": 0.0833}}
+{"segment_start": "0:14:00.00", "segment_end": "0:14:08.00", "danmaku_count": 12, "emotion": {"@C": 0.3333, "O": 0.1667, "B": 0.1667, "E": 0.0833, "Q": 0.0833, "G": 0.0833, "T": 0.0833}}
+{"segment_start": "0:14:08.00", "segment_end": "0:14:16.00", "danmaku_count": 12, "emotion": {"@C": 0.75, "B": 0.1667, "U": 0.0833}}
+{"segment_start": "0:14:16.00", "segment_end": "0:14:24.00", "danmaku_count": 14, "emotion": {"@C": 0.6429, "B": 0.0714, "I": 0.0714, "D": 0.0714, "Z": 0.0714, "@A": 0.0714}}
+{"segment_start": "0:14:24.00", "segment_end": "0:14:32.00", "danmaku_count": 22, "emotion": {"@C": 0.4545, "A": 0.1364, "B": 0.0909, "O": 0.0909, "I": 0.0455, "N": 0.0455, "H": 0.0455, "F": 0.0455, "C": 0.0455}}
+{"segment_start": "0:14:32.00", "segment_end": "0:14:40.00", "danmaku_count": 5, "emotion": {"@C": 0.6, "X": 0.2, "I": 0.2}}
+{"segment_start": "0:14:40.00", "segment_end": "0:14:48.00", "danmaku_count": 5, "emotion": {"@C": 0.4, "F": 0.2, "B": 0.2, "N": 0.2}}

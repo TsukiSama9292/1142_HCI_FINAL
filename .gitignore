@@ -5,7 +5,6 @@ __pycache__/
 *.egg-info/
 .env
 *.ass
-*.jsonl
-
-logs/
+# *.jsonl # 實驗紀錄上傳
+# logs/ # 實驗紀錄上傳
 models/
