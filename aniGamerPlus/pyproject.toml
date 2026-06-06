@@ -1,8 +1,0 @@
-[project]
-name = "aniGamerBS"
-version = "1.0.0"
-description = "動畫瘋彈幕下載工具"
-requires-python = ">=3.10"
-dependencies = [
-    "requests>=2.31.0",
-]

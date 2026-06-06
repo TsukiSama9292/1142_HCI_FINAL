@@ -1,15 +1,18 @@
 [project]
-name = "emotions-classifier"
-version = "0.1.0"
-description = "Fast emotion classification using ONNX CPU inference"
+name = "hci-analysis"
+version = "1.0.0"
+description = "動畫瘋彈幕下載 + GoEmotions 情緒分類分析工具"
 requires-python = ">=3.10"
 dependencies = [
+    "requests>=2.31.0",
     "huggingface-hub>=1.17.0",
     "numpy>=2.2.6",
     "onnxruntime>=1.24.3",
-    "onnxscript>=0.7.0",
     "tokenizers",
 ]
+
+[project.scripts]
+hci-analysis = "main:main"
 
 [project.optional-dependencies]
 export = [
@@ -17,9 +20,6 @@ export = [
     "transformers",
     "onnx>=1.17.0",
 ]
-
-[project.scripts]
-emotions-classifier = "main:main"
 
 [tool.uv]
 package = false
