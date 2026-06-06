@@ -1,0 +1,25 @@
+[project]
+name = "emotions-classifier"
+version = "0.1.0"
+description = "Fast emotion classification using ONNX CPU inference"
+requires-python = ">=3.10"
+dependencies = [
+    "huggingface-hub>=1.17.0",
+    "numpy>=2.2.6",
+    "onnxruntime>=1.24.3",
+    "onnxscript>=0.7.0",
+    "tokenizers",
+]
+
+[project.optional-dependencies]
+export = [
+    "torch>=2.6.0",
+    "transformers",
+    "onnx>=1.17.0",
+]
+
+[project.scripts]
+emotions-classifier = "main:main"
+
+[tool.uv]
+package = false
