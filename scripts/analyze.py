@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import argparse
+import itertools
 import json
 import os
 import sys
@@ -13,6 +14,8 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 from src.hci_analysis.lsa import (
     load_protagonist_emotions,
     load_danmaku_distributions,
+    load_rater_emotions,
+    align_raters,
     align_sequences,
     get_emotion_codes,
     transition_matrix,
@@ -24,6 +27,8 @@ from src.hci_analysis.lsa import (
     chi_square_test,
     pool_aligned,
     dominant_emotion,
+    cohen_kappa,
+    fleiss_kappa,
 )
 
 
@@ -149,6 +154,69 @@ def load_group_config(path: str) -> dict:
         return json.load(f)
 
 
+def run_inter_rater(config: dict, protagonist_dir: str, output_dir: str):
+    raters = ["a", "b", "c", "d"]
+    rater_pairs = list(itertools.combinations(raters, 2))
+    all_fleiss_input: list[list[str]] = []
+    per_video_results = {}
+
+    print(f"\n{'='*60}", file=sys.stderr)
+    print("  Inter-Rater Reliability Analysis", file=sys.stderr)
+    print(f"{'='*60}", file=sys.stderr)
+
+    for group_name, group_info in config["groups"].items():
+        for sn_entry in group_info["sns"]:
+            sn = sn_entry["sn"]
+            sn_dir = os.path.join(protagonist_dir, str(sn))
+            rater_data = load_rater_emotions(sn_dir, raters)
+            if len(rater_data) < 2:
+                print(f"  [SKIP] sn={sn}: found {len(rater_data)} raters (need >=2)", file=sys.stderr)
+                continue
+            aligned = align_raters(rater_data)
+            if len(aligned) < 2:
+                print(f"  [SKIP] sn={sn}: no overlapping windows", file=sys.stderr)
+                continue
+            codes = get_emotion_codes()
+            pairwise = []
+            for r1, r2 in rater_pairs:
+                if r1 in aligned and r2 in aligned:
+                    result = cohen_kappa(aligned[r1], aligned[r2], codes)
+                    pairwise.append({"rater_a": r1, "rater_b": r2, **result})
+            ratings = [aligned[r] for r in raters if r in aligned]
+            n_windows = len(next(iter(aligned.values())))
+            fleiss_input = [[ratings[j][i] for j in range(len(ratings))] for i in range(n_windows)]
+            fleiss = fleiss_kappa(fleiss_input, codes)
+            per_video_results[f"sn_{sn}"] = {
+                "sn": sn,
+                "title": sn_entry.get("short", sn_entry.get("title", "")),
+                "group": group_name,
+                "n_windows": n_windows,
+                "n_raters": len(ratings),
+                "pairwise_kappa": pairwise,
+                "fleiss_kappa": fleiss,
+            }
+            all_fleiss_input.extend(fleiss_input)
+            print(f"  sn={sn}: Fleiss Kappa={fleiss['kappa']:.4f}, Z={fleiss['z']:.2f}, p={fleiss['p']:.4f}, n={fleiss['n']}", file=sys.stderr)
+
+    overall_fleiss = fleiss_kappa(all_fleiss_input, get_emotion_codes())
+    print(f"\n  Overall Fleiss Kappa={overall_fleiss['kappa']:.4f}, Z={overall_fleiss['z']:.2f}, p={overall_fleiss['p']:.4f}, n={overall_fleiss['n']}", file=sys.stderr)
+
+    output = {
+        "per_video": per_video_results,
+        "overall": {
+            "n_total_windows": overall_fleiss["n"],
+            "n_raters": overall_fleiss["n_raters"],
+            "fleiss_kappa": overall_fleiss["kappa"],
+            "z_score": overall_fleiss["z"],
+            "p_value": overall_fleiss["p"],
+        },
+    }
+    out_path = os.path.join(output_dir, "inter_rater_reliability.json")
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(output, f, ensure_ascii=False, indent=2)
+    print(f"\nSaved: {out_path}", file=sys.stderr)
+
+
 def main():
     parser = argparse.ArgumentParser(description="主角情緒 vs 彈幕情緒 LSA 分析")
     parser.add_argument("--group-config", required=True, help="群組設定 JSON 路徑")
@@ -158,11 +226,17 @@ def main():
                         help="彈幕分析 JSONL 根目錄 (預設: logs)")
     parser.add_argument("--output", "-o", default="results",
                         help="輸出目錄 (預設: results)")
+    parser.add_argument("--inter-rater", action="store_true",
+                        help="評分者間信度分析 (讀取 logs/<sn>/rf/{a,b,c,d}.jsonl)")
     args = parser.parse_args()
 
     config = load_group_config(args.group_config)
     output_dir = args.output
     os.makedirs(output_dir, exist_ok=True)
+
+    if args.inter_rater:
+        run_inter_rater(config, args.protagonist_dir, output_dir)
+        return
 
     all_aligned: dict[str, list] = {}
     meta: dict[str, dict] = {}

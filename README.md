@@ -111,7 +111,7 @@ uv run python3 main.py --from-config config/analysis_groups.json
 
 ### 主角情緒手動編碼
 
-建立 `logs/<sn>/protagonist.jsonl`，每 8 秒窗一筆，`protagonist_emotion` 使用上方編碼表：
+每位研究員各自編碼，存放於 `logs/<sn>/rf/{a,b,c,d}.jsonl`，每 8 秒窗一筆，`protagonist_emotion` 使用上方編碼表：
 
 ```jsonl
 {"segment_start": "0:11:52.00", "segment_end": "0:12:00.00", "protagonist_emotion": "S"}
@@ -150,9 +150,23 @@ uv run python3 main.py --from-config config/analysis_groups.json
 }
 ```
 
+### 評分者間信度分析（Inter-Rater Reliability）
+
+主角編碼完成後，先確認四位研究員的一致性：
+
+```bash
+uv run python3 scripts/analyze.py --inter-rater --group-config config/analysis_groups.json -o results/
+```
+
+輸出 `results/inter_rater_reliability.json`，包含：
+- **Per-video**：各 SN 的 pairwise Cohen's Kappa（A–B, A–C, A–D, B–C, B–D, C–D）+ Fleiss' Kappa
+- **Overall**：全部 pooled 的 Fleiss' Kappa、Z-score、p-value
+
+目標：Fleiss' Kappa ≥ 0.60，Z > 1.96（p < 0.05）。
+
 ### 執行 LSA 分析
 
-主角編碼完成後：
+信度達標後（或使用多數決整合主角情緒後）：
 
 ```bash
 uv run python3 scripts/analyze.py --group-config config/analysis_groups.json -o results/
@@ -259,7 +273,11 @@ uv run python3 scripts/export_onnx.py
 │   │   ├── output.jsonl             # 完整情緒分數
 │   │   ├── output_label.jsonl       # 單一情緒編碼
 │   │   └── output_label_ana.jsonl   # 8 秒窗聚合
-│   └── protagonist.jsonl            # (手動) 主角情緒編碼
+│   └── rf/
+│       ├── a.jsonl                  # (手動) 研究員A 主角情緒編碼
+│       ├── b.jsonl                  # (手動) 研究員B
+│       ├── c.jsonl                  # (手動) 研究員C
+│       └── d.jsonl                  # (手動) 研究員D
 ├── models/
 │   └── SchuylerH/bert-multilingual-go-emtions/onnx/
 │       ├── model.onnx               # ONNX 模型

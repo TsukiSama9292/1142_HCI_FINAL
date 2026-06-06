@@ -1,10 +1,11 @@
 import json
+import itertools
 import math
 from collections import Counter
 
 import numpy as np
 import pandas as pd
-from scipy.stats import chi2_contingency
+from scipy.stats import chi2_contingency, norm
 
 from .emotions import EMOTION_CODES
 
@@ -159,3 +160,101 @@ def pool_aligned(
     for _sn, aligned in video_data.items():
         pooled.extend(aligned)
     return pooled
+
+
+def load_rater_emotions(sn_dir: str, raters: list[str] = None) -> dict[str, list[dict]]:
+    if raters is None:
+        raters = ["a", "b", "c", "d"]
+    result = {}
+    import os
+    for r in raters:
+        path = os.path.join(sn_dir, "rf", f"{r}.jsonl")
+        if os.path.exists(path):
+            result[r] = load_protagonist_emotions(path)
+    return result
+
+
+def align_raters(rater_data: dict[str, list[dict]]) -> dict[str, list[str]]:
+    keys = None
+    for r, records in rater_data.items():
+        cur = [rec["segment_start"] for rec in records]
+        if keys is None:
+            keys = set(cur)
+        else:
+            keys &= set(cur)
+    if not keys:
+        return {}
+    aligned: dict[str, list[str]] = {}
+    for r, records in rater_data.items():
+        lookup = {rec["segment_start"]: rec["protagonist_emotion"] for rec in records}
+        aligned[r] = [lookup[k] for k in sorted(keys)]
+    return aligned
+
+
+def cohen_kappa(r1: list[str], r2: list[str], codes: list[str] | None = None) -> dict:
+    n = len(r1)
+    if n == 0:
+        return {"kappa": 0.0, "z": 0.0, "p": 1.0, "n": 0, "agreement": 0.0}
+    observed = sum(1 for a, b in zip(r1, r2) if a == b) / n
+    if codes is None:
+        codes = sorted(set(r1) | set(r2))
+    proportions = []
+    for c in codes:
+        p1 = sum(1 for a in r1 if a == c) / n
+        p2 = sum(1 for a in r2 if a == c) / n
+        proportions.append(p1 * p2)
+    expected = sum(proportions)
+    denom = 1 - expected
+    if denom == 0:
+        return {"kappa": 0.0, "z": 0.0, "p": 1.0, "n": n, "agreement": round(observed, 4)}
+    kappa = (observed - expected) / denom
+    var = observed * (1 - observed) / (n * denom * denom)
+    se = math.sqrt(var) if var > 0 else 1e-10
+    z = kappa / se
+    p = 2 * (1 - norm.cdf(abs(z)))
+    return {
+        "kappa": round(kappa, 4),
+        "z": round(z, 4),
+        "p": round(p, 4),
+        "n": n,
+        "agreement": round(observed, 4),
+    }
+
+
+def fleiss_kappa(ratings: list[list[str]], codes: list[str] | None = None) -> dict:
+    n_subjects = len(ratings)
+    if n_subjects == 0:
+        return {"kappa": 0.0, "z": 0.0, "p": 1.0, "n": 0}
+    n_raters = len(ratings[0])
+    if codes is None:
+        codes = sorted(set(c for row in ratings for c in row))
+    k = len(codes)
+    code_index = {c: i for i, c in enumerate(codes)}
+    matrix = np.zeros((n_subjects, k), dtype=np.int64)
+    for i, row in enumerate(ratings):
+        for c in row:
+            if c in code_index:
+                matrix[i, code_index[c]] += 1
+
+    p_i = (np.sum(matrix ** 2, axis=1) - n_raters) / (n_raters * (n_raters - 1))
+    p_bar = np.mean(p_i)
+    p_j = matrix.sum(axis=0) / (n_subjects * n_raters)
+    p_e = np.sum(p_j ** 2)
+    denom = 1 - p_e
+    if denom == 0:
+        return {"kappa": 0.0, "z": 0.0, "p": 1.0, "n": n_subjects}
+    kappa = (p_bar - p_e) / denom
+    sum_pj2 = np.sum(p_j ** 2)
+    sum_pj3 = np.sum(p_j ** 3)
+    var = 2 * (sum_pj2 - (2 * n_raters - 3) * sum_pj3 + 2 * (n_raters - 2) * sum_pj2 ** 2)
+    var /= n_subjects * n_raters * (n_raters - 1) * denom ** 2
+    se = math.sqrt(var) if var > 0 else 1e-10
+    z = kappa / se
+    p = 2 * (1 - norm.cdf(abs(z)))
+    return {
+        "kappa": round(float(kappa), 4),
+        "z": round(float(z), 4),
+        "p": round(float(p), 4),
+        "n": n_subjects,
+        "n_raters": n_raters,
+    }
