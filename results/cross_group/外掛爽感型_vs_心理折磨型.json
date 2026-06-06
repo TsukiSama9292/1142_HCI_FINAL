@@ -1,0 +1,10 @@
+{
+  "group_a": "外掛爽感型",
+  "group_b": "心理折磨型",
+  "chi_square": {
+    "chi2": null,
+    "p": null,
+    "dof": null,
+    "error": "The internally computed table of expected frequencies has a zero element at (np.int64(0), np.int64(0))."
+  }
+}

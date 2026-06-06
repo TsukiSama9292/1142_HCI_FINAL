@@ -29,6 +29,7 @@ from src.hci_analysis.lsa import (
     dominant_emotion,
     cohen_kappa,
     fleiss_kappa,
+    extract_emotion_paths,
 )
 
 
@@ -123,6 +124,12 @@ def analyze_group(aligned: list, label: str, output_dir: str, sn_label: str = ""
         sig_path = os.path.join(group_dir, f"significant_paths_lag{lag}.jsonl")
         with open(sig_path, "w", encoding="utf-8") as f:
             for row in sig:
+                f.write(json.dumps(row, ensure_ascii=False) + "\n")
+
+        all_paths = extract_emotion_paths(mat, z, CODES)
+        all_paths_path = os.path.join(group_dir, f"emotion_paths_lag{lag}.jsonl")
+        with open(all_paths_path, "w", encoding="utf-8") as f:
+            for row in all_paths:
                 f.write(json.dumps(row, ensure_ascii=False) + "\n")
 
     return summary, sims
@@ -256,10 +263,6 @@ def main():
         else:
             print(f"  [WARN] no data for group: {group_name}", file=sys.stderr)
 
-    if not all_aligned:
-        print("No data loaded. Exiting.", file=sys.stderr)
-        sys.exit(1)
-
     group_summaries = {}
     all_sims = []
 
@@ -268,45 +271,82 @@ def main():
         group_summaries[group_name] = summary
         all_sims.append((group_name, sims))
 
+    for group_name in config["groups"]:
+        group_dir = os.path.join(output_dir, _safe_name(group_name))
+        os.makedirs(group_dir, exist_ok=True)
+        if group_name not in all_aligned:
+            marker_path = os.path.join(group_dir, "MISSING_DATA")
+            if not os.path.exists(marker_path):
+                with open(marker_path, "w", encoding="utf-8") as f:
+                    f.write(
+                        f"Group '{group_name}' has no data.\n"
+                        "Required: protagonist.jsonl and nlp/output_label_ana.jsonl "
+                        "for all SNs in this group.\n"
+                    )
+
     if len(all_aligned) >= 2:
         pooled = pool_aligned(all_aligned)
         analyze_group(pooled, "全部 (All)", output_dir, sn_label="pooled")
 
-        print(f"\n{'='*60}", file=sys.stderr)
-        print("  Cross-group comparisons", file=sys.stderr)
-        print(f"{'='*60}", file=sys.stderr)
-        cross_dir = os.path.join(output_dir, "cross_group")
-        os.makedirs(cross_dir, exist_ok=True)
-
-        group_names = list(all_aligned.keys())
-        for i in range(len(group_names)):
-            for j in range(i + 1, len(group_names)):
-                g1 = group_names[i]
-                g2 = group_names[j]
-                mat1 = transition_matrix(all_aligned[g1], CODES, lag=0)
-                mat2 = transition_matrix(all_aligned[g2], CODES, lag=0)
-
-                stacked = np.array([mat1.sum(), mat2.sum()])
-                if stacked.min() > 0:
-                    chi2_test = chi_square_test(np.vstack([
-                        mat1.sum(axis=1),
-                        mat2.sum(axis=1),
-                    ]))
-                else:
-                    chi2_test = {"chi2": None, "p": None, "dof": None}
-
-                cross_record = {
-                    "group_a": g1,
-                    "group_b": g2,
-                    "chi_square": chi2_test,
-                }
-                cross_path = os.path.join(cross_dir, f"{_safe_name(g1)}_vs_{_safe_name(g2)}.json")
-                with open(cross_path, "w", encoding="utf-8") as f:
-                    json.dump(cross_record, f, ensure_ascii=False, indent=2)
-
     summary_path = os.path.join(output_dir, "all_summaries.json")
     with open(summary_path, "w", encoding="utf-8") as f:
         json.dump(group_summaries, f, ensure_ascii=False, indent=2)
+
+    cross_dir = os.path.join(output_dir, "cross_group")
+    os.makedirs(cross_dir, exist_ok=True)
+
+    print(f"\n{'='*60}", file=sys.stderr)
+    print("  Cross-group comparisons", file=sys.stderr)
+    print(f"{'='*60}", file=sys.stderr)
+
+    all_group_names = list(config["groups"].keys())
+    for i in range(len(all_group_names)):
+        for j in range(i + 1, len(all_group_names)):
+            g1 = all_group_names[i]
+            g2 = all_group_names[j]
+            cross_record = {"group_a": g1, "group_b": g2}
+
+            if g1 in all_aligned and g2 in all_aligned:
+                try:
+                    mat1 = transition_matrix(all_aligned[g1], CODES, lag=0)
+                    mat2 = transition_matrix(all_aligned[g2], CODES, lag=0)
+                    stacked = np.array([mat1.sum(), mat2.sum()])
+                    if stacked.min() > 0:
+                        chi2_test = chi_square_test(np.vstack([
+                            mat1.sum(axis=1),
+                            mat2.sum(axis=1),
+                        ]))
+                    else:
+                        chi2_test = {"chi2": None, "p": None, "dof": None}
+                    cross_record["chi_square"] = chi2_test
+                except Exception as e:
+                    cross_record["chi_square"] = {
+                        "chi2": None, "p": None, "dof": None, "error": str(e),
+                    }
+            else:
+                missing = []
+                if g1 not in all_aligned:
+                    missing.append(g1)
+                if g2 not in all_aligned:
+                    missing.append(g2)
+                cross_record["chi_square"] = {
+                    "chi2": None, "p": None, "dof": None,
+                    "error": f"missing data: {', '.join(missing)}",
+                }
+
+            cross_path = os.path.join(
+                cross_dir, f"{_safe_name(g1)}_vs_{_safe_name(g2)}.json"
+            )
+            with open(cross_path, "w", encoding="utf-8") as f:
+                json.dump(cross_record, f, ensure_ascii=False, indent=2)
+            print(f"  {_safe_name(g1)}_vs_{_safe_name(g2)}: "
+                  f"chi2={cross_record['chi_square'].get('chi2')}, "
+                  f"p={cross_record['chi_square'].get('p')}",
+                  file=sys.stderr)
+
+    if not all_aligned:
+        print("No data loaded for any group. Exiting.", file=sys.stderr)
+        sys.exit(1)
 
     print(f"\nDone. Results in: {output_dir}", file=sys.stderr)
 

@@ -35,14 +35,42 @@ def ana_path(output_path: str) -> str:
     return f"{base}_label_ana{ext}"
 
 
-def build_segments(n_records: list[dict], window_sec: int) -> dict[int, list[dict]]:
+def build_segments(
+    n_records: list[dict],
+    window_sec: int,
+    clip_start_dsec: int | None = None,
+) -> dict[int, list[dict]]:
     window_dsec = window_sec * 10
     segments: dict[int, list[dict]] = {}
     for record in n_records:
         dsec = ts_to_dsec(record["start"])
-        bin_start = (dsec // window_dsec) * window_dsec
+        if clip_start_dsec is not None:
+            offset = dsec - clip_start_dsec
+            bin_start = clip_start_dsec + (offset // window_dsec) * window_dsec
+        else:
+            bin_start = (dsec // window_dsec) * window_dsec
         segments.setdefault(bin_start, []).append(record)
     return segments
+
+
+def _fill_window_gaps(
+    segments: dict[int, list[dict]],
+    window_dsec: int,
+    start_dsec: int | None = None,
+    end_dsec: int | None = None,
+) -> list[tuple[int, list[dict]]]:
+    if not segments and start_dsec is None:
+        return []
+    if start_dsec is None:
+        start_dsec = min(segments.keys())
+    if end_dsec is None:
+        end_dsec = max(segments.keys()) + window_dsec
+    bins: list[tuple[int, list[dict]]] = []
+    bin_start = start_dsec
+    while bin_start < end_dsec:
+        bins.append((bin_start, segments.get(bin_start, [])))
+        bin_start += window_dsec
+    return bins
 
 
 def process_sn(sn: int, start_range_str: str | None, output: str | None,
@@ -109,15 +137,26 @@ def process_sn(sn: int, start_range_str: str | None, output: str | None,
     if segment > 0:
         window_dsec = segment * 10
         segments: dict[int, list[dict]] = {}
+        clip_start_dsec = start_range[0] if start_range else None
         for record in n_records:
             dsec = ts_to_dsec(record["start"])
-            bin_start = (dsec // window_dsec) * window_dsec
+            if clip_start_dsec is not None:
+                offset = dsec - clip_start_dsec
+                bin_start = clip_start_dsec + (offset // window_dsec) * window_dsec
+            else:
+                bin_start = (dsec // window_dsec) * window_dsec
             segments.setdefault(bin_start, []).append(record)
+
+        if start_range:
+            sr_start, sr_end = start_range
+        else:
+            all_starts = sorted(segments.keys())
+            sr_start = all_starts[0] if all_starts else 0
+            sr_end = (all_starts[-1] + window_dsec) if all_starts else 0
 
         seg_records_full: list[dict] = []
         seg_records_label: list[dict] = []
-        for bin_start in sorted(segments):
-            danmakus = segments[bin_start]
+        for bin_start, danmakus in _fill_window_gaps(segments, window_dsec, sr_start, sr_end):
             all_emotions: list[str] = []
             for d in danmakus:
                 all_emotions.extend(d["emotions"].keys())
@@ -178,10 +217,16 @@ def process_sn(sn: int, start_range_str: str | None, output: str | None,
         print(f"情緒標記 JSONL 已儲存: {output_path}")
         print(f"情緒編碼 JSONL 已儲存: {label_out}")
 
-        ana_segments = build_segments(n_records, 8)
+        ana_segments = build_segments(n_records, 8, clip_start_dsec=start_range[0] if start_range else None)
+        if start_range:
+            ana_sr_start, ana_sr_end = start_range
+        else:
+            ana_keys = sorted(ana_segments.keys())
+            ana_sr_start = ana_keys[0] if ana_keys else 0
+            ana_sr_end = (ana_keys[-1] + 80) if ana_keys else 0
+
         ana_records: list[dict] = []
-        for bin_start in sorted(ana_segments):
-            danmakus = ana_segments[bin_start]
+        for bin_start, danmakus in _fill_window_gaps(ana_segments, 80, ana_sr_start, ana_sr_end):
             codes = [d["_emotion_code"] for d in danmakus]
             code_counts = Counter(codes)
             code_total = sum(code_counts.values())

@@ -193,7 +193,8 @@ results/
 │   ├── significant_paths_lag0.jsonl       # Z > 1.96 的顯著路徑
 │   ├── cosine_similarities.jsonl          # 每窗 Cosine Similarity
 │   ├── protagonist_distribution.jsonl     # 主角情緒分佈統計
-│   └── danmaku_distribution.jsonl         # 彈幕情緒分佈統計
+│   ├── danmaku_distribution.jsonl         # 彈幕情緒分佈統計
+│   └── emotion_paths_lag{0,1,2}.jsonl    # 所有非零情緒轉移路徑（含中英文標籤、Z-score）
 ├── 心理折磨型/
 │   └── ...
 └── 搞笑解構型/
@@ -210,6 +211,7 @@ results/
 | 主角情緒分佈對比 | `*/protagonist_distribution.jsonl` |
 | 彈幕情緒分佈對比 | `*/danmaku_distribution.jsonl` |
 | Lag 0 / Lag 1 / Lag 2 延遲效應 | `*_lag{0,1,2}.csv` |
+| 情緒路徑列舉（含中英文標籤） | `*/emotion_paths_lag{0,1,2}.jsonl` |
 
 ## 規則斷言關鍵字（DIRECT_EMOTION_RULES）
 

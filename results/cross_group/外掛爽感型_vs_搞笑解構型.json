@@ -1,0 +1,10 @@
+{
+  "group_a": "外掛爽感型",
+  "group_b": "搞笑解構型",
+  "chi_square": {
+    "chi2": null,
+    "p": null,
+    "dof": null,
+    "error": "missing data: 搞笑解構型"
+  }
+}
