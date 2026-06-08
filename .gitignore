@@ -8,3 +8,4 @@ __pycache__/
 # *.jsonl # 實驗紀錄上傳
 # logs/ # 實驗紀錄上傳
 models/
+.codegraph/
