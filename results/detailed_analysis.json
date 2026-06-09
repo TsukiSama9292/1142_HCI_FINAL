@@ -137,12 +137,12 @@
     "protagonist_distribution": {
       "@A": 11.9,
       "@B": 35.7,
-      "D": 2.4,
+      "D": 4.8,
       "F": 2.4,
       "L": 4.8,
       "S": 2.4,
       "U": 28.6,
-      "X": 7.1,
+      "X": 4.8,
       "Z": 4.8
     },
     "danmaku_top10": {
@@ -163,7 +163,7 @@
         0,
         1,
         0,
-        3
+        4
       ],
       [
         1,
@@ -175,7 +175,7 @@
         0,
         1,
         0,
-        4
+        3
       ],
       [
         0,
@@ -186,7 +186,7 @@
     ],
     "mean_cosine": 0.0,
     "median_cosine": 0.0,
-    "entropy": 2.488,
+    "entropy": 2.506,
     "unique_emotions": 9,
     "dominant_emotion": "@B",
     "dominant_ratio": 0.3571,
@@ -206,8 +206,8 @@
         "danmaku_code": "N",
         "danmaku_zh": "煩惱",
         "count": 1,
-        "z_score": 2.32,
-        "row_proportion": 0.3333
+        "z_score": 3.0,
+        "row_proportion": 0.5
       }
     ]
   },
@@ -478,7 +478,7 @@
         0,
         1,
         0,
-        5
+        6
       ],
       [
         1,
@@ -490,7 +490,7 @@
         0,
         1,
         0,
-        5
+        4
       ],
       [
         0,
@@ -566,8 +566,8 @@
       "danmaku_code": "@A",
       "danmaku_zh": "驚訝",
       "count": 1,
-      "z_score": 3.27,
-      "row_proportion": 0.05
+      "z_score": 3.37,
+      "row_proportion": 0.0526
     },
     {
       "protagonist_code": "@A",
@@ -597,6 +597,15 @@
       "row_proportion": 0.0833
     },
     {
+      "protagonist_code": "X",
+      "protagonist_zh": "困惑",
+      "danmaku_code": "B",
+      "danmaku_zh": "有趣",
+      "count": 1,
+      "z_score": 2.2,
+      "row_proportion": 0.0526
+    },
+    {
       "protagonist_code": "U",
       "protagonist_zh": "緊張",
       "danmaku_code": "I",
@@ -604,15 +613,6 @@
       "count": 1,
       "z_score": 2.16,
       "row_proportion": 0.0769
-    },
-    {
-      "protagonist_code": "X",
-      "protagonist_zh": "困惑",
-      "danmaku_code": "B",
-      "danmaku_zh": "有趣",
-      "count": 1,
-      "z_score": 2.12,
-      "row_proportion": 0.05
     },
     {
       "protagonist_code": "K",

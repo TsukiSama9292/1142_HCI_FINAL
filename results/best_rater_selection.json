@@ -1,0 +1,464 @@
+{
+  "sn_31622": {
+    "sn": 31622,
+    "title": "影之強者 第5集",
+    "group": "外掛爽感型",
+    "n_windows": 42,
+    "n_raters": 4,
+    "raters": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pairwise_kappa": [
+      {
+        "rater_a": "a",
+        "rater_b": "d",
+        "kappa": 1.0,
+        "z": 10000000000.0,
+        "p": 0.0,
+        "n": 42,
+        "agreement": 1.0
+      },
+      {
+        "rater_a": "a",
+        "rater_b": "b",
+        "kappa": 0.9189,
+        "z": 11.4707,
+        "p": 0.0,
+        "n": 42,
+        "agreement": 0.9762
+      },
+      {
+        "rater_a": "b",
+        "rater_b": "d",
+        "kappa": 0.9189,
+        "z": 11.4707,
+        "p": 0.0,
+        "n": 42,
+        "agreement": 0.9762
+      },
+      {
+        "rater_a": "b",
+        "rater_b": "c",
+        "kappa": 0.6162,
+        "z": 4.653,
+        "p": 0.0,
+        "n": 42,
+        "agreement": 0.8333
+      },
+      {
+        "rater_a": "a",
+        "rater_b": "c",
+        "kappa": 0.5514,
+        "z": 3.864,
+        "p": 0.0001,
+        "n": 42,
+        "agreement": 0.8095
+      },
+      {
+        "rater_a": "c",
+        "rater_b": "d",
+        "kappa": 0.5514,
+        "z": 3.864,
+        "p": 0.0001,
+        "n": 42,
+        "agreement": 0.8095
+      }
+    ],
+    "best_pair": {
+      "rater_a": "a",
+      "rater_b": "d",
+      "kappa": 1.0
+    },
+    "kappa_threshold": 0.6,
+    "qualified": true,
+    "selected_rater": "a"
+  },
+  "sn_11351": {
+    "sn": 11351,
+    "title": "史萊姆 第14集",
+    "group": "外掛爽感型",
+    "n_windows": 42,
+    "n_raters": 4,
+    "raters": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pairwise_kappa": [
+      {
+        "rater_a": "a",
+        "rater_b": "b",
+        "kappa": 0.903,
+        "z": 16.7333,
+        "p": 0.0,
+        "n": 42,
+        "agreement": 0.9286
+      },
+      {
+        "rater_a": "a",
+        "rater_b": "d",
+        "kappa": 0.6709,
+        "z": 7.8713,
+        "p": 0.0,
+        "n": 42,
+        "agreement": 0.7381
+      },
+      {
+        "rater_a": "c",
+        "rater_b": "d",
+        "kappa": 0.6431,
+        "z": 7.3843,
+        "p": 0.0,
+        "n": 42,
+        "agreement": 0.7143
+      },
+      {
+        "rater_a": "b",
+        "rater_b": "d",
+        "kappa": 0.5871,
+        "z": 6.5154,
+        "p": 0.0,
+        "n": 42,
+        "agreement": 0.6667
+      },
+      {
+        "rater_a": "a",
+        "rater_b": "c",
+        "kappa": 0.3709,
+        "z": 3.8208,
+        "p": 0.0001,
+        "n": 42,
+        "agreement": 0.5
+      },
+      {
+        "rater_a": "b",
+        "rater_b": "c",
+        "kappa": 0.2946,
+        "z": 3.1255,
+        "p": 0.0018,
+        "n": 42,
+        "agreement": 0.4286
+      }
+    ],
+    "best_pair": {
+      "rater_a": "a",
+      "rater_b": "b",
+      "kappa": 0.903
+    },
+    "kappa_threshold": 0.6,
+    "qualified": true,
+    "selected_rater": "a"
+  },
+  "sn_14464": {
+    "sn": 14464,
+    "title": "re:0 第2集B",
+    "group": "心理折磨型",
+    "n_windows": 42,
+    "n_raters": 4,
+    "raters": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pairwise_kappa": [
+      {
+        "rater_a": "a",
+        "rater_b": "d",
+        "kappa": 0.9071,
+        "z": 17.5464,
+        "p": 0.0,
+        "n": 42,
+        "agreement": 0.9286
+      },
+      {
+        "rater_a": "a",
+        "rater_b": "b",
+        "kappa": 0.8444,
+        "z": 12.9329,
+        "p": 0.0,
+        "n": 42,
+        "agreement": 0.881
+      },
+      {
+        "rater_a": "b",
+        "rater_b": "d",
+        "kappa": 0.8132,
+        "z": 11.5174,
+        "p": 0.0,
+        "n": 42,
+        "agreement": 0.8571
+      },
+      {
+        "rater_a": "c",
+        "rater_b": "d",
+        "kappa": 0.6702,
+        "z": 7.8463,
+        "p": 0.0,
+        "n": 42,
+        "agreement": 0.7381
+      },
+      {
+        "rater_a": "a",
+        "rater_b": "c",
+        "kappa": 0.6114,
+        "z": 6.8265,
+        "p": 0.0,
+        "n": 42,
+        "agreement": 0.6905
+      },
+      {
+        "rater_a": "b",
+        "rater_b": "c",
+        "kappa": 0.4929,
+        "z": 5.1945,
+        "p": 0.0,
+        "n": 42,
+        "agreement": 0.5952
+      }
+    ],
+    "best_pair": {
+      "rater_a": "a",
+      "rater_b": "d",
+      "kappa": 0.9071
+    },
+    "kappa_threshold": 0.6,
+    "qualified": true,
+    "selected_rater": "a"
+  },
+  "sn_8649": {
+    "sn": 8649,
+    "title": "來自深淵 第10集",
+    "group": "心理折磨型",
+    "n_windows": 42,
+    "n_raters": 4,
+    "raters": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pairwise_kappa": [
+      {
+        "rater_a": "a",
+        "rater_b": "b",
+        "kappa": 0.8489,
+        "z": 8.1428,
+        "p": 0.0,
+        "n": 42,
+        "agreement": 0.9524
+      },
+      {
+        "rater_a": "a",
+        "rater_b": "d",
+        "kappa": 0.6495,
+        "z": 4.903,
+        "p": 0.0,
+        "n": 42,
+        "agreement": 0.8571
+      },
+      {
+        "rater_a": "b",
+        "rater_b": "d",
+        "kappa": 0.6358,
+        "z": 4.6196,
+        "p": 0.0,
+        "n": 42,
+        "agreement": 0.8571
+      },
+      {
+        "rater_a": "a",
+        "rater_b": "c",
+        "kappa": 0.3865,
+        "z": 2.4316,
+        "p": 0.015,
+        "n": 42,
+        "agreement": 0.7381
+      },
+      {
+        "rater_a": "b",
+        "rater_b": "c",
+        "kappa": 0.3628,
+        "z": 2.1976,
+        "p": 0.028,
+        "n": 42,
+        "agreement": 0.7381
+      },
+      {
+        "rater_a": "c",
+        "rater_b": "d",
+        "kappa": 0.224,
+        "z": 1.4677,
+        "p": 0.1422,
+        "n": 42,
+        "agreement": 0.619
+      }
+    ],
+    "best_pair": {
+      "rater_a": "a",
+      "rater_b": "b",
+      "kappa": 0.8489
+    },
+    "kappa_threshold": 0.6,
+    "qualified": true,
+    "selected_rater": "a"
+  },
+  "sn_27444": {
+    "sn": 27444,
+    "title": "異世界美少女大叔 第1集",
+    "group": "搞笑解構型",
+    "n_windows": 42,
+    "n_raters": 4,
+    "raters": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pairwise_kappa": [
+      {
+        "rater_a": "a",
+        "rater_b": "b",
+        "kappa": 0.9701,
+        "z": 32.8217,
+        "p": 0.0,
+        "n": 42,
+        "agreement": 0.9762
+      },
+      {
+        "rater_a": "a",
+        "rater_b": "d",
+        "kappa": 0.8794,
+        "z": 15.3317,
+        "p": 0.0,
+        "n": 42,
+        "agreement": 0.9048
+      },
+      {
+        "rater_a": "b",
+        "rater_b": "d",
+        "kappa": 0.8503,
+        "z": 13.5341,
+        "p": 0.0,
+        "n": 42,
+        "agreement": 0.881
+      },
+      {
+        "rater_a": "c",
+        "rater_b": "d",
+        "kappa": 0.0384,
+        "z": 0.7034,
+        "p": 0.4818,
+        "n": 42,
+        "agreement": 0.119
+      },
+      {
+        "rater_a": "b",
+        "rater_b": "c",
+        "kappa": 0.0178,
+        "z": 0.363,
+        "p": 0.7166,
+        "n": 42,
+        "agreement": 0.0952
+      },
+      {
+        "rater_a": "a",
+        "rater_b": "c",
+        "kappa": 0.0172,
+        "z": 0.3504,
+        "p": 0.726,
+        "n": 42,
+        "agreement": 0.0952
+      }
+    ],
+    "best_pair": {
+      "rater_a": "a",
+      "rater_b": "b",
+      "kappa": 0.9701
+    },
+    "kappa_threshold": 0.6,
+    "qualified": true,
+    "selected_rater": "a"
+  },
+  "sn_7296": {
+    "sn": 7296,
+    "title": "為美好世界 第3集",
+    "group": "搞笑解構型",
+    "n_windows": 42,
+    "n_raters": 4,
+    "raters": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "pairwise_kappa": [
+      {
+        "rater_a": "a",
+        "rater_b": "b",
+        "kappa": 0.8485,
+        "z": 13.3413,
+        "p": 0.0,
+        "n": 42,
+        "agreement": 0.881
+      },
+      {
+        "rater_a": "a",
+        "rater_b": "d",
+        "kappa": 0.7382,
+        "z": 9.5445,
+        "p": 0.0,
+        "n": 42,
+        "agreement": 0.7857
+      },
+      {
+        "rater_a": "b",
+        "rater_b": "d",
+        "kappa": 0.6985,
+        "z": 8.3929,
+        "p": 0.0,
+        "n": 42,
+        "agreement": 0.7619
+      },
+      {
+        "rater_a": "c",
+        "rater_b": "d",
+        "kappa": 0.5882,
+        "z": 6.9007,
+        "p": 0.0,
+        "n": 42,
+        "agreement": 0.6429
+      },
+      {
+        "rater_a": "a",
+        "rater_b": "c",
+        "kappa": 0.4636,
+        "z": 5.3405,
+        "p": 0.0,
+        "n": 42,
+        "agreement": 0.5238
+      },
+      {
+        "rater_a": "b",
+        "rater_b": "c",
+        "kappa": 0.3208,
+        "z": 3.7125,
+        "p": 0.0002,
+        "n": 42,
+        "agreement": 0.4048
+      }
+    ],
+    "best_pair": {
+      "rater_a": "a",
+      "rater_b": "b",
+      "kappa": 0.8485
+    },
+    "kappa_threshold": 0.6,
+    "qualified": true,
+    "selected_rater": "a"
+  }
+}
