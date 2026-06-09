@@ -38,7 +38,7 @@ CODES = get_emotion_codes()
 
 def load_video(sn: int, protagonist_dir: str, danmaku_dir: str):
     p_path = os.path.join(protagonist_dir, str(sn), "protagonist.jsonl")
-    d_path = os.path.join(danmaku_dir, str(sn), "nlp", "output_label_ana.jsonl")
+    d_path = os.path.join(danmaku_dir, str(sn), "nlp", "final_label_ana.jsonl")
     if not os.path.exists(p_path):
         print(f"  [SKIP] protagonist not found: {p_path}", file=sys.stderr)
         return None
@@ -280,7 +280,7 @@ def main():
                 with open(marker_path, "w", encoding="utf-8") as f:
                     f.write(
                         f"Group '{group_name}' has no data.\n"
-                        "Required: protagonist.jsonl and nlp/output_label_ana.jsonl "
+                        "Required: protagonist.jsonl and nlp/final_label_ana.jsonl "
                         "for all SNs in this group.\n"
                     )
 

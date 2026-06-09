@@ -52,7 +52,7 @@ def main():
             sn = sn_entry["sn"]
             label = sn_entry.get("short", sn_entry.get("title", f"sn_{sn}"))
             d_path = os.path.join(
-                args.danmaku_dir, str(sn), "nlp", "output_label_ana.jsonl"
+                args.danmaku_dir, str(sn), "nlp", "final_label_ana.jsonl"
             )
             if not os.path.exists(d_path):
                 print(f"  [SKIP] danmaku not found: {d_path}", file=sys.stderr)

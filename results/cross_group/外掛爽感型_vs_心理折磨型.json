@@ -5,6 +5,6 @@
     "chi2": null,
     "p": null,
     "dof": null,
-    "error": "The internally computed table of expected frequencies has a zero element at (np.int64(0), np.int64(0))."
+    "error": "The internally computed table of expected frequencies has a zero element at (np.int64(0), np.int64(1))."
   }
 }

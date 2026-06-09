@@ -1,9 +1,9 @@
 {
   "group": "全部 (All)",
-  "total_windows": 84,
-  "resonance_ratio": 0.0,
-  "resonance_count": 0,
-  "dissonance_count": 84,
-  "mean_cosine": 0.0,
-  "std_cosine": 0.0
+  "total_windows": 252,
+  "resonance_ratio": 0.004,
+  "resonance_count": 1,
+  "dissonance_count": 251,
+  "mean_cosine": 0.0363,
+  "std_cosine": 0.0906
 }

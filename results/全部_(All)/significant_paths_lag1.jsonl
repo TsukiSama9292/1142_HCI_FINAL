@@ -1,2 +1,12 @@
-{"protagonist_emotion": "X", "danmaku_emotion": "N", "observed_count": 1, "z_score": 2.9463}
-{"protagonist_emotion": "U", "danmaku_emotion": "Z", "observed_count": 1, "z_score": 2.2634}
+{"protagonist_emotion": "D", "danmaku_emotion": "M", "observed_count": 1, "z_score": 5.8327}
+{"protagonist_emotion": "N", "danmaku_emotion": "H", "observed_count": 1, "z_score": 4.3635}
+{"protagonist_emotion": "N", "danmaku_emotion": "@A", "observed_count": 1, "z_score": 4.3635}
+{"protagonist_emotion": "U", "danmaku_emotion": "Z", "observed_count": 1, "z_score": 4.1748}
+{"protagonist_emotion": "X", "danmaku_emotion": "C", "observed_count": 2, "z_score": 3.6234}
+{"protagonist_emotion": "X", "danmaku_emotion": "I", "observed_count": 2, "z_score": 3.6234}
+{"protagonist_emotion": "U", "danmaku_emotion": "I", "observed_count": 1, "z_score": 2.1556}
+{"protagonist_emotion": "X", "danmaku_emotion": "B", "observed_count": 1, "z_score": 2.1142}
+{"protagonist_emotion": "K", "danmaku_emotion": "K", "observed_count": 1, "z_score": 2.11}
+{"protagonist_emotion": "K", "danmaku_emotion": "X", "observed_count": 1, "z_score": 2.11}
+{"protagonist_emotion": "D", "danmaku_emotion": "F", "observed_count": 1, "z_score": 2.0603}
+{"protagonist_emotion": "T", "danmaku_emotion": "@C", "observed_count": 34, "z_score": 1.9821}

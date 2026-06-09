@@ -8,8 +8,8 @@
 {"segment_start": "0:12:48.00", "segment_end": "0:12:56.00", "protagonist_emotion": "U"}
 {"segment_start": "0:12:56.00", "segment_end": "0:13:04.00", "protagonist_emotion": "U"}
 {"segment_start": "0:13:04.00", "segment_end": "0:13:12.00", "protagonist_emotion": "U"}
-{"segment_start": "0:13:12.00", "segment_end": "0:13:20.00", "protagonist_emotion": "G"}
-{"segment_start": "0:13:20.00", "segment_end": "0:13:28.00", "protagonist_emotion": "X"}
+{"segment_start": "0:13:12.00", "segment_end": "0:13:20.00", "protagonist_emotion": "L"}
+{"segment_start": "0:13:20.00", "segment_end": "0:13:28.00", "protagonist_emotion": "L"}
 {"segment_start": "0:13:28.00", "segment_end": "0:13:36.00", "protagonist_emotion": "X"}
 {"segment_start": "0:13:36.00", "segment_end": "0:13:44.00", "protagonist_emotion": "X"}
 {"segment_start": "0:13:44.00", "segment_end": "0:13:52.00", "protagonist_emotion": "Z"}
@@ -33,10 +33,10 @@
 {"segment_start": "0:16:08.00", "segment_end": "0:16:16.00", "protagonist_emotion": "@B"}
 {"segment_start": "0:16:16.00", "segment_end": "0:16:24.00", "protagonist_emotion": "@B"}
 {"segment_start": "0:16:24.00", "segment_end": "0:16:32.00", "protagonist_emotion": "@B"}
-{"segment_start": "0:16:32.00", "segment_end": "0:16:40.00", "protagonist_emotion": "@A"}
+{"segment_start": "0:16:32.00", "segment_end": "0:16:40.00", "protagonist_emotion": "S"}
 {"segment_start": "0:16:40.00", "segment_end": "0:16:48.00", "protagonist_emotion": "@A"}
 {"segment_start": "0:16:48.00", "segment_end": "0:16:56.00", "protagonist_emotion": "@A"}
 {"segment_start": "0:16:56.00", "segment_end": "0:17:04.00", "protagonist_emotion": "@A"}
 {"segment_start": "0:17:04.00", "segment_end": "0:17:12.00", "protagonist_emotion": "@A"}
 {"segment_start": "0:17:12.00", "segment_end": "0:17:20.00", "protagonist_emotion": "@A"}
-{"segment_start": "0:17:20.00", "segment_end": "0:17:28.00", "protagonist_emotion": "L"}
+{"segment_start": "0:17:20.00", "segment_end": "0:17:28.00", "protagonist_emotion": "D"}
