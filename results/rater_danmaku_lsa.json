@@ -1,0 +1,7562 @@
+{
+  "31622_a_lag0": {
+    "sn": 31622,
+    "label": "影之強者",
+    "rater": "a",
+    "lag": 0,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "R",
+        "observed_count": 1,
+        "row_proportion": 0.1429,
+        "z_score": 1.1832,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 6,
+        "row_proportion": 0.8571,
+        "z_score": 0.3208,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "N",
+        "observed_count": 2,
+        "row_proportion": 0.0571,
+        "z_score": 0.2646,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "B",
+        "observed_count": 1,
+        "row_proportion": 0.0286,
+        "z_score": 0.1848,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "C",
+        "observed_count": 1,
+        "row_proportion": 0.0286,
+        "z_score": 0.1848,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "K",
+        "observed_count": 1,
+        "row_proportion": 0.0286,
+        "z_score": 0.1848,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "X",
+        "observed_count": 1,
+        "row_proportion": 0.0286,
+        "z_score": 0.1848,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "@C",
+        "observed_count": 28,
+        "row_proportion": 0.8,
+        "z_score": -0.1435,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "R",
+        "observed_count": 1,
+        "row_proportion": 0.0286,
+        "z_score": -0.5292,
+        "significant": false
+      }
+    ]
+  },
+  "31622_a_lag1": {
+    "sn": 31622,
+    "label": "影之強者",
+    "rater": "a",
+    "lag": 1,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "R",
+        "observed_count": 1,
+        "row_proportion": 0.1667,
+        "z_score": 1.3405,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "B",
+        "observed_count": 1,
+        "row_proportion": 0.0286,
+        "z_score": 0.1604,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "C",
+        "observed_count": 1,
+        "row_proportion": 0.0286,
+        "z_score": 0.1604,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "K",
+        "observed_count": 1,
+        "row_proportion": 0.0286,
+        "z_score": 0.1604,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "N",
+        "observed_count": 1,
+        "row_proportion": 0.0286,
+        "z_score": 0.1604,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "X",
+        "observed_count": 1,
+        "row_proportion": 0.0286,
+        "z_score": 0.1604,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 5,
+        "row_proportion": 0.8333,
+        "z_score": 0.0265,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "@C",
+        "observed_count": 29,
+        "row_proportion": 0.8286,
+        "z_score": -0.011,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "R",
+        "observed_count": 1,
+        "row_proportion": 0.0286,
+        "z_score": -0.555,
+        "significant": false
+      }
+    ]
+  },
+  "31622_a_lag2": {
+    "sn": 31622,
+    "label": "影之強者",
+    "rater": "a",
+    "lag": 2,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "R",
+        "observed_count": 1,
+        "row_proportion": 0.2,
+        "z_score": 1.539,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "B",
+        "observed_count": 1,
+        "row_proportion": 0.0286,
+        "z_score": 0.1353,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "C",
+        "observed_count": 1,
+        "row_proportion": 0.0286,
+        "z_score": 0.1353,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "K",
+        "observed_count": 1,
+        "row_proportion": 0.0286,
+        "z_score": 0.1353,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "N",
+        "observed_count": 1,
+        "row_proportion": 0.0286,
+        "z_score": 0.1353,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "X",
+        "observed_count": 1,
+        "row_proportion": 0.0286,
+        "z_score": 0.1353,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "@C",
+        "observed_count": 29,
+        "row_proportion": 0.8286,
+        "z_score": 0.0556,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 4,
+        "row_proportion": 0.8,
+        "z_score": -0.1471,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "R",
+        "observed_count": 1,
+        "row_proportion": 0.0286,
+        "z_score": -0.5817,
+        "significant": false
+      }
+    ]
+  },
+  "31622_b_lag0": {
+    "sn": 31622,
+    "label": "影之強者",
+    "rater": "b",
+    "lag": 0,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "R",
+        "observed_count": 1,
+        "row_proportion": 0.125,
+        "z_score": 1.0277,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 7,
+        "row_proportion": 0.875,
+        "z_score": 0.4716,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "N",
+        "observed_count": 2,
+        "row_proportion": 0.0588,
+        "z_score": 0.3068,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "B",
+        "observed_count": 1,
+        "row_proportion": 0.0294,
+        "z_score": 0.2143,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "C",
+        "observed_count": 1,
+        "row_proportion": 0.0294,
+        "z_score": 0.2143,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "K",
+        "observed_count": 1,
+        "row_proportion": 0.0294,
+        "z_score": 0.2143,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "X",
+        "observed_count": 1,
+        "row_proportion": 0.0294,
+        "z_score": 0.2143,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "@C",
+        "observed_count": 27,
+        "row_proportion": 0.7941,
+        "z_score": -0.2288,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "R",
+        "observed_count": 1,
+        "row_proportion": 0.0294,
+        "z_score": -0.4985,
+        "significant": false
+      }
+    ]
+  },
+  "31622_b_lag1": {
+    "sn": 31622,
+    "label": "影之強者",
+    "rater": "b",
+    "lag": 1,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "R",
+        "observed_count": 1,
+        "row_proportion": 0.1429,
+        "z_score": 1.1555,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 6,
+        "row_proportion": 0.8571,
+        "z_score": 0.196,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "B",
+        "observed_count": 1,
+        "row_proportion": 0.0294,
+        "z_score": 0.1898,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "C",
+        "observed_count": 1,
+        "row_proportion": 0.0294,
+        "z_score": 0.1898,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "K",
+        "observed_count": 1,
+        "row_proportion": 0.0294,
+        "z_score": 0.1898,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "N",
+        "observed_count": 1,
+        "row_proportion": 0.0294,
+        "z_score": 0.1898,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "X",
+        "observed_count": 1,
+        "row_proportion": 0.0294,
+        "z_score": 0.1898,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "@C",
+        "observed_count": 28,
+        "row_proportion": 0.8235,
+        "z_score": -0.0889,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "R",
+        "observed_count": 1,
+        "row_proportion": 0.0294,
+        "z_score": -0.5243,
+        "significant": false
+      }
+    ]
+  },
+  "31622_b_lag2": {
+    "sn": 31622,
+    "label": "影之強者",
+    "rater": "b",
+    "lag": 2,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "R",
+        "observed_count": 1,
+        "row_proportion": 0.1667,
+        "z_score": 1.3112,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "B",
+        "observed_count": 1,
+        "row_proportion": 0.0294,
+        "z_score": 0.1648,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "C",
+        "observed_count": 1,
+        "row_proportion": 0.0294,
+        "z_score": 0.1648,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "K",
+        "observed_count": 1,
+        "row_proportion": 0.0294,
+        "z_score": 0.1648,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "N",
+        "observed_count": 1,
+        "row_proportion": 0.0294,
+        "z_score": 0.1648,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "X",
+        "observed_count": 1,
+        "row_proportion": 0.0294,
+        "z_score": 0.1648,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 5,
+        "row_proportion": 0.8333,
+        "z_score": 0.0537,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "@C",
+        "observed_count": 28,
+        "row_proportion": 0.8235,
+        "z_score": -0.0226,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "R",
+        "observed_count": 1,
+        "row_proportion": 0.0294,
+        "z_score": -0.5508,
+        "significant": false
+      }
+    ]
+  },
+  "31622_c_lag0": {
+    "sn": 31622,
+    "label": "影之強者",
+    "rater": "c",
+    "lag": 0,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "K",
+        "observed_count": 1,
+        "row_proportion": 0.1,
+        "z_score": 1.5804,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "R",
+        "observed_count": 1,
+        "row_proportion": 0.1,
+        "z_score": 0.7778,
+        "significant": false
+      },
+      {
+        "protagonist_code": "P",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.686,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "N",
+        "observed_count": 2,
+        "row_proportion": 0.0741,
+        "z_score": 0.6455,
+        "significant": false
+      },
+      {
+        "protagonist_code": "M",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.4851,
+        "significant": false
+      },
+      {
+        "protagonist_code": "O",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.4851,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Q",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.4851,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "B",
+        "observed_count": 1,
+        "row_proportion": 0.037,
+        "z_score": 0.4508,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "C",
+        "observed_count": 1,
+        "row_proportion": 0.037,
+        "z_score": 0.4508,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "X",
+        "observed_count": 1,
+        "row_proportion": 0.037,
+        "z_score": 0.4508,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 8,
+        "row_proportion": 0.8,
+        "z_score": -0.0767,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "R",
+        "observed_count": 1,
+        "row_proportion": 0.037,
+        "z_score": -0.2582,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "@C",
+        "observed_count": 21,
+        "row_proportion": 0.7778,
+        "z_score": -0.4201,
+        "significant": false
+      }
+    ]
+  },
+  "31622_c_lag1": {
+    "sn": 31622,
+    "label": "影之強者",
+    "rater": "c",
+    "lag": 1,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "R",
+        "observed_count": 1,
+        "row_proportion": 0.1111,
+        "z_score": 0.8681,
+        "significant": false
+      },
+      {
+        "protagonist_code": "P",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.6417,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 8,
+        "row_proportion": 0.8889,
+        "z_score": 0.4753,
+        "significant": false
+      },
+      {
+        "protagonist_code": "M",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.4537,
+        "significant": false
+      },
+      {
+        "protagonist_code": "O",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.4537,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Q",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.4537,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "B",
+        "observed_count": 1,
+        "row_proportion": 0.037,
+        "z_score": 0.426,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "C",
+        "observed_count": 1,
+        "row_proportion": 0.037,
+        "z_score": 0.426,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "K",
+        "observed_count": 1,
+        "row_proportion": 0.037,
+        "z_score": 0.426,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "N",
+        "observed_count": 1,
+        "row_proportion": 0.037,
+        "z_score": 0.426,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "X",
+        "observed_count": 1,
+        "row_proportion": 0.037,
+        "z_score": 0.426,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "R",
+        "observed_count": 1,
+        "row_proportion": 0.037,
+        "z_score": -0.2833,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "@C",
+        "observed_count": 21,
+        "row_proportion": 0.7778,
+        "z_score": -0.7111,
+        "significant": false
+      }
+    ]
+  },
+  "31622_c_lag2": {
+    "sn": 31622,
+    "label": "影之強者",
+    "rater": "c",
+    "lag": 2,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "X",
+        "observed_count": 1,
+        "row_proportion": 0.125,
+        "z_score": 1.8116,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "R",
+        "observed_count": 1,
+        "row_proportion": 0.125,
+        "z_score": 0.9733,
+        "significant": false
+      },
+      {
+        "protagonist_code": "P",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.6513,
+        "significant": false
+      },
+      {
+        "protagonist_code": "M",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.4606,
+        "significant": false
+      },
+      {
+        "protagonist_code": "O",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.4606,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Q",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.4606,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "B",
+        "observed_count": 1,
+        "row_proportion": 0.037,
+        "z_score": 0.4006,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "C",
+        "observed_count": 1,
+        "row_proportion": 0.037,
+        "z_score": 0.4006,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "K",
+        "observed_count": 1,
+        "row_proportion": 0.037,
+        "z_score": 0.4006,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "N",
+        "observed_count": 1,
+        "row_proportion": 0.037,
+        "z_score": 0.4006,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "@C",
+        "observed_count": 22,
+        "row_proportion": 0.8148,
+        "z_score": -0.1393,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "R",
+        "observed_count": 1,
+        "row_proportion": 0.037,
+        "z_score": -0.3091,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 6,
+        "row_proportion": 0.75,
+        "z_score": -0.5583,
+        "significant": false
+      }
+    ]
+  },
+  "31622_d_lag0": {
+    "sn": 31622,
+    "label": "影之強者",
+    "rater": "d",
+    "lag": 0,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "R",
+        "observed_count": 1,
+        "row_proportion": 0.1429,
+        "z_score": 1.1832,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 6,
+        "row_proportion": 0.8571,
+        "z_score": 0.3208,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "N",
+        "observed_count": 2,
+        "row_proportion": 0.0571,
+        "z_score": 0.2646,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "B",
+        "observed_count": 1,
+        "row_proportion": 0.0286,
+        "z_score": 0.1848,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "C",
+        "observed_count": 1,
+        "row_proportion": 0.0286,
+        "z_score": 0.1848,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "K",
+        "observed_count": 1,
+        "row_proportion": 0.0286,
+        "z_score": 0.1848,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "X",
+        "observed_count": 1,
+        "row_proportion": 0.0286,
+        "z_score": 0.1848,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "@C",
+        "observed_count": 28,
+        "row_proportion": 0.8,
+        "z_score": -0.1435,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "R",
+        "observed_count": 1,
+        "row_proportion": 0.0286,
+        "z_score": -0.5292,
+        "significant": false
+      }
+    ]
+  },
+  "31622_d_lag1": {
+    "sn": 31622,
+    "label": "影之強者",
+    "rater": "d",
+    "lag": 1,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "R",
+        "observed_count": 1,
+        "row_proportion": 0.1667,
+        "z_score": 1.3405,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "B",
+        "observed_count": 1,
+        "row_proportion": 0.0286,
+        "z_score": 0.1604,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "C",
+        "observed_count": 1,
+        "row_proportion": 0.0286,
+        "z_score": 0.1604,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "K",
+        "observed_count": 1,
+        "row_proportion": 0.0286,
+        "z_score": 0.1604,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "N",
+        "observed_count": 1,
+        "row_proportion": 0.0286,
+        "z_score": 0.1604,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "X",
+        "observed_count": 1,
+        "row_proportion": 0.0286,
+        "z_score": 0.1604,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 5,
+        "row_proportion": 0.8333,
+        "z_score": 0.0265,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "@C",
+        "observed_count": 29,
+        "row_proportion": 0.8286,
+        "z_score": -0.011,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "R",
+        "observed_count": 1,
+        "row_proportion": 0.0286,
+        "z_score": -0.555,
+        "significant": false
+      }
+    ]
+  },
+  "31622_d_lag2": {
+    "sn": 31622,
+    "label": "影之強者",
+    "rater": "d",
+    "lag": 2,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "R",
+        "observed_count": 1,
+        "row_proportion": 0.2,
+        "z_score": 1.539,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "B",
+        "observed_count": 1,
+        "row_proportion": 0.0286,
+        "z_score": 0.1353,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "C",
+        "observed_count": 1,
+        "row_proportion": 0.0286,
+        "z_score": 0.1353,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "K",
+        "observed_count": 1,
+        "row_proportion": 0.0286,
+        "z_score": 0.1353,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "N",
+        "observed_count": 1,
+        "row_proportion": 0.0286,
+        "z_score": 0.1353,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "X",
+        "observed_count": 1,
+        "row_proportion": 0.0286,
+        "z_score": 0.1353,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "@C",
+        "observed_count": 29,
+        "row_proportion": 0.8286,
+        "z_score": 0.0556,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 4,
+        "row_proportion": 0.8,
+        "z_score": -0.1471,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "R",
+        "observed_count": 1,
+        "row_proportion": 0.0286,
+        "z_score": -0.5817,
+        "significant": false
+      }
+    ]
+  },
+  "11351_a_lag0": {
+    "sn": 11351,
+    "label": "史萊姆",
+    "rater": "a",
+    "lag": 0,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "F",
+        "observed_count": 2,
+        "row_proportion": 0.6667,
+        "z_score": 2.9289,
+        "significant": true
+      },
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "F",
+        "observed_count": 1,
+        "row_proportion": 0.5,
+        "z_score": 1.6636,
+        "significant": false
+      },
+      {
+        "protagonist_code": "D",
+        "danmaku_code": "@C",
+        "observed_count": 5,
+        "row_proportion": 1.0,
+        "z_score": 1.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "F",
+        "observed_count": 1,
+        "row_proportion": 0.25,
+        "z_score": 0.8087,
+        "significant": false
+      },
+      {
+        "protagonist_code": "N",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 1.0,
+        "z_score": 0.7746,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "M",
+        "observed_count": 1,
+        "row_proportion": 0.05,
+        "z_score": 0.7683,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "N",
+        "observed_count": 1,
+        "row_proportion": 0.05,
+        "z_score": 0.7683,
+        "significant": false
+      },
+      {
+        "protagonist_code": "A",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.6325,
+        "significant": false
+      },
+      {
+        "protagonist_code": "C",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.4472,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.4472,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Z",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.4472,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 17,
+        "row_proportion": 0.85,
+        "z_score": 0.2,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 0.75,
+        "z_score": -0.4472,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "F",
+        "observed_count": 1,
+        "row_proportion": 0.05,
+        "z_score": -0.9535,
+        "significant": false
+      },
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 0.5,
+        "z_score": -1.2649,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 0.3333,
+        "z_score": -2.3238,
+        "significant": false
+      }
+    ]
+  },
+  "11351_a_lag1": {
+    "sn": 11351,
+    "label": "史萊姆",
+    "rater": "a",
+    "lag": 1,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "N",
+        "observed_count": 1,
+        "row_proportion": 0.5,
+        "z_score": 4.3603,
+        "significant": true
+      },
+      {
+        "protagonist_code": "D",
+        "danmaku_code": "M",
+        "observed_count": 1,
+        "row_proportion": 0.2,
+        "z_score": 2.5456,
+        "significant": true
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "F",
+        "observed_count": 1,
+        "row_proportion": 0.3333,
+        "z_score": 1.1189,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "F",
+        "observed_count": 1,
+        "row_proportion": 0.3333,
+        "z_score": 1.1189,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 18,
+        "row_proportion": 0.9,
+        "z_score": 0.8407,
+        "significant": false
+      },
+      {
+        "protagonist_code": "N",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 1.0,
+        "z_score": 0.7859,
+        "significant": false
+      },
+      {
+        "protagonist_code": "A",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.6417,
+        "significant": false
+      },
+      {
+        "protagonist_code": "D",
+        "danmaku_code": "F",
+        "observed_count": 1,
+        "row_proportion": 0.2,
+        "z_score": 0.5333,
+        "significant": false
+      },
+      {
+        "protagonist_code": "C",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.4537,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.4537,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Z",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.4537,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "F",
+        "observed_count": 2,
+        "row_proportion": 0.1,
+        "z_score": -0.3,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 0.6667,
+        "z_score": -0.7485,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 0.6667,
+        "z_score": -0.7485,
+        "significant": false
+      },
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 0.5,
+        "z_score": -1.2375,
+        "significant": false
+      },
+      {
+        "protagonist_code": "D",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 0.6,
+        "z_score": -1.3625,
+        "significant": false
+      }
+    ]
+  },
+  "11351_a_lag2": {
+    "sn": 11351,
+    "label": "史萊姆",
+    "rater": "a",
+    "lag": 2,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "N",
+        "observed_count": 1,
+        "row_proportion": 0.5,
+        "z_score": 4.3027,
+        "significant": true
+      },
+      {
+        "protagonist_code": "D",
+        "danmaku_code": "F",
+        "observed_count": 2,
+        "row_proportion": 0.4,
+        "z_score": 1.8593,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "F",
+        "observed_count": 1,
+        "row_proportion": 0.5,
+        "z_score": 1.6036,
+        "significant": false
+      },
+      {
+        "protagonist_code": "N",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 1.0,
+        "z_score": 0.7276,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 1.0,
+        "z_score": 0.7276,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 18,
+        "row_proportion": 0.9,
+        "z_score": 0.6262,
+        "significant": false
+      },
+      {
+        "protagonist_code": "A",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.5941,
+        "significant": false
+      },
+      {
+        "protagonist_code": "C",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.4201,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.4201,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Z",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.4201,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "F",
+        "observed_count": 2,
+        "row_proportion": 0.1,
+        "z_score": -0.3381,
+        "significant": false
+      },
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 0.5,
+        "z_score": -1.3862,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 0.5,
+        "z_score": -1.3862,
+        "significant": false
+      },
+      {
+        "protagonist_code": "D",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 0.6,
+        "z_score": -1.5656,
+        "significant": false
+      }
+    ]
+  },
+  "11351_b_lag0": {
+    "sn": 11351,
+    "label": "史萊姆",
+    "rater": "b",
+    "lag": 0,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "F",
+        "observed_count": 2,
+        "row_proportion": 0.6667,
+        "z_score": 2.9289,
+        "significant": true
+      },
+      {
+        "protagonist_code": "J",
+        "danmaku_code": "F",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 2.7203,
+        "significant": true
+      },
+      {
+        "protagonist_code": "D",
+        "danmaku_code": "@C",
+        "observed_count": 5,
+        "row_proportion": 1.0,
+        "z_score": 1.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "F",
+        "observed_count": 1,
+        "row_proportion": 0.25,
+        "z_score": 0.8087,
+        "significant": false
+      },
+      {
+        "protagonist_code": "N",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 1.0,
+        "z_score": 0.7746,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "M",
+        "observed_count": 1,
+        "row_proportion": 0.05,
+        "z_score": 0.7683,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "N",
+        "observed_count": 1,
+        "row_proportion": 0.05,
+        "z_score": 0.7683,
+        "significant": false
+      },
+      {
+        "protagonist_code": "A",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.6325,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.6325,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.4472,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Z",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.4472,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 17,
+        "row_proportion": 0.85,
+        "z_score": 0.2,
+        "significant": false
+      },
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 0.75,
+        "z_score": -0.4472,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "F",
+        "observed_count": 1,
+        "row_proportion": 0.05,
+        "z_score": -0.9535,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 0.3333,
+        "z_score": -2.3238,
+        "significant": false
+      }
+    ]
+  },
+  "11351_b_lag1": {
+    "sn": 11351,
+    "label": "史萊姆",
+    "rater": "b",
+    "lag": 1,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "N",
+        "observed_count": 1,
+        "row_proportion": 0.25,
+        "z_score": 2.9251,
+        "significant": true
+      },
+      {
+        "protagonist_code": "D",
+        "danmaku_code": "M",
+        "observed_count": 1,
+        "row_proportion": 0.2,
+        "z_score": 2.5456,
+        "significant": true
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "F",
+        "observed_count": 1,
+        "row_proportion": 0.3333,
+        "z_score": 1.1189,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 18,
+        "row_proportion": 0.9,
+        "z_score": 0.8407,
+        "significant": false
+      },
+      {
+        "protagonist_code": "N",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 1.0,
+        "z_score": 0.7859,
+        "significant": false
+      },
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "F",
+        "observed_count": 1,
+        "row_proportion": 0.25,
+        "z_score": 0.7826,
+        "significant": false
+      },
+      {
+        "protagonist_code": "A",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.6417,
+        "significant": false
+      },
+      {
+        "protagonist_code": "D",
+        "danmaku_code": "F",
+        "observed_count": 1,
+        "row_proportion": 0.2,
+        "z_score": 0.5333,
+        "significant": false
+      },
+      {
+        "protagonist_code": "J",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.4537,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.4537,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.4537,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Z",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.4537,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "F",
+        "observed_count": 2,
+        "row_proportion": 0.1,
+        "z_score": -0.3,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 0.6667,
+        "z_score": -0.7485,
+        "significant": false
+      },
+      {
+        "protagonist_code": "D",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 0.6,
+        "z_score": -1.3625,
+        "significant": false
+      },
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 0.5,
+        "z_score": -1.7502,
+        "significant": false
+      }
+    ]
+  },
+  "11351_b_lag2": {
+    "sn": 11351,
+    "label": "史萊姆",
+    "rater": "b",
+    "lag": 2,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "N",
+        "observed_count": 1,
+        "row_proportion": 0.25,
+        "z_score": 2.8823,
+        "significant": true
+      },
+      {
+        "protagonist_code": "J",
+        "danmaku_code": "F",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 2.6458,
+        "significant": true
+      },
+      {
+        "protagonist_code": "D",
+        "danmaku_code": "F",
+        "observed_count": 2,
+        "row_proportion": 0.4,
+        "z_score": 1.8593,
+        "significant": false
+      },
+      {
+        "protagonist_code": "N",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 1.0,
+        "z_score": 0.7276,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 1.0,
+        "z_score": 0.7276,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 18,
+        "row_proportion": 0.9,
+        "z_score": 0.6262,
+        "significant": false
+      },
+      {
+        "protagonist_code": "A",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.5941,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.4201,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Z",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.4201,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "F",
+        "observed_count": 2,
+        "row_proportion": 0.1,
+        "z_score": -0.3381,
+        "significant": false
+      },
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 0.75,
+        "z_score": -0.5601,
+        "significant": false
+      },
+      {
+        "protagonist_code": "D",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 0.6,
+        "z_score": -1.5656,
+        "significant": false
+      }
+    ]
+  },
+  "11351_c_lag0": {
+    "sn": 11351,
+    "label": "史萊姆",
+    "rater": "c",
+    "lag": 0,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "L",
+        "danmaku_code": "F",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 2.7203,
+        "significant": true
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "F",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 2.7203,
+        "significant": true
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "N",
+        "observed_count": 1,
+        "row_proportion": 0.0833,
+        "z_score": 1.3525,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "M",
+        "observed_count": 1,
+        "row_proportion": 0.0714,
+        "z_score": 1.1687,
+        "significant": false
+      },
+      {
+        "protagonist_code": "D",
+        "danmaku_code": "@C",
+        "observed_count": 4,
+        "row_proportion": 1.0,
+        "z_score": 0.8944,
+        "significant": false
+      },
+      {
+        "protagonist_code": "C",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 1.0,
+        "z_score": 0.7746,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "F",
+        "observed_count": 1,
+        "row_proportion": 0.2,
+        "z_score": 0.559,
+        "significant": false
+      },
+      {
+        "protagonist_code": "N",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.4472,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.4472,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 12,
+        "row_proportion": 0.8571,
+        "z_score": 0.239,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "@C",
+        "observed_count": 10,
+        "row_proportion": 0.8333,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "@C",
+        "observed_count": 4,
+        "row_proportion": 0.8,
+        "z_score": -0.2,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "F",
+        "observed_count": 1,
+        "row_proportion": 0.0833,
+        "z_score": -0.382,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "F",
+        "observed_count": 1,
+        "row_proportion": 0.0714,
+        "z_score": -0.5502,
+        "significant": false
+      }
+    ]
+  },
+  "11351_c_lag1": {
+    "sn": 11351,
+    "label": "史萊姆",
+    "rater": "c",
+    "lag": 1,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "D",
+        "danmaku_code": "M",
+        "observed_count": 1,
+        "row_proportion": 0.25,
+        "z_score": 2.9251,
+        "significant": true
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "F",
+        "observed_count": 2,
+        "row_proportion": 0.4,
+        "z_score": 1.9,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "N",
+        "observed_count": 1,
+        "row_proportion": 0.0714,
+        "z_score": 1.141,
+        "significant": false
+      },
+      {
+        "protagonist_code": "C",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 1.0,
+        "z_score": 0.7859,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "F",
+        "observed_count": 2,
+        "row_proportion": 0.1818,
+        "z_score": 0.6068,
+        "significant": false
+      },
+      {
+        "protagonist_code": "L",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.4537,
+        "significant": false
+      },
+      {
+        "protagonist_code": "N",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.4537,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.4537,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.4537,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 12,
+        "row_proportion": 0.8571,
+        "z_score": 0.2772,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "@C",
+        "observed_count": 9,
+        "row_proportion": 0.8182,
+        "z_score": -0.0977,
+        "significant": false
+      },
+      {
+        "protagonist_code": "D",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 0.75,
+        "z_score": -0.4213,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "F",
+        "observed_count": 1,
+        "row_proportion": 0.0714,
+        "z_score": -0.5777,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 0.6,
+        "z_score": -1.3625,
+        "significant": false
+      }
+    ]
+  },
+  "11351_c_lag2": {
+    "sn": 11351,
+    "label": "史萊姆",
+    "rater": "c",
+    "lag": 2,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "L",
+        "danmaku_code": "N",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 6.245,
+        "significant": true
+      },
+      {
+        "protagonist_code": "D",
+        "danmaku_code": "F",
+        "observed_count": 2,
+        "row_proportion": 0.5,
+        "z_score": 2.2678,
+        "significant": true
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 13,
+        "row_proportion": 0.9286,
+        "z_score": 0.8233,
+        "significant": false
+      },
+      {
+        "protagonist_code": "C",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 1.0,
+        "z_score": 0.7276,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "F",
+        "observed_count": 1,
+        "row_proportion": 0.2,
+        "z_score": 0.5071,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "@C",
+        "observed_count": 9,
+        "row_proportion": 0.9,
+        "z_score": 0.4428,
+        "significant": false
+      },
+      {
+        "protagonist_code": "N",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.4201,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.4201,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.4201,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "F",
+        "observed_count": 1,
+        "row_proportion": 0.1,
+        "z_score": -0.239,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "@C",
+        "observed_count": 4,
+        "row_proportion": 0.8,
+        "z_score": -0.3131,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "F",
+        "observed_count": 1,
+        "row_proportion": 0.0714,
+        "z_score": -0.6061,
+        "significant": false
+      },
+      {
+        "protagonist_code": "D",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 0.5,
+        "z_score": -1.9604,
+        "significant": false
+      }
+    ]
+  },
+  "11351_d_lag0": {
+    "sn": 11351,
+    "label": "史萊姆",
+    "rater": "d",
+    "lag": 0,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "F",
+        "observed_count": 2,
+        "row_proportion": 0.6667,
+        "z_score": 2.9289,
+        "significant": true
+      },
+      {
+        "protagonist_code": "L",
+        "danmaku_code": "F",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 2.7203,
+        "significant": true
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "M",
+        "observed_count": 1,
+        "row_proportion": 0.0714,
+        "z_score": 1.1687,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "N",
+        "observed_count": 1,
+        "row_proportion": 0.0714,
+        "z_score": 1.1687,
+        "significant": false
+      },
+      {
+        "protagonist_code": "N",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 1.0,
+        "z_score": 0.7746,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 1.0,
+        "z_score": 0.7746,
+        "significant": false
+      },
+      {
+        "protagonist_code": "A",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.6325,
+        "significant": false
+      },
+      {
+        "protagonist_code": "C",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.6325,
+        "significant": false
+      },
+      {
+        "protagonist_code": "D",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.6325,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "@C",
+        "observed_count": 9,
+        "row_proportion": 0.9,
+        "z_score": 0.5657,
+        "significant": false
+      },
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.4472,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Z",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.4472,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "F",
+        "observed_count": 1,
+        "row_proportion": 0.1,
+        "z_score": -0.186,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 11,
+        "row_proportion": 0.7857,
+        "z_score": -0.4781,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "F",
+        "observed_count": 1,
+        "row_proportion": 0.0714,
+        "z_score": -0.5502,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 0.3333,
+        "z_score": -2.3238,
+        "significant": false
+      }
+    ]
+  },
+  "11351_d_lag1": {
+    "sn": 11351,
+    "label": "史萊姆",
+    "rater": "d",
+    "lag": 1,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "N",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 6.3246,
+        "significant": true
+      },
+      {
+        "protagonist_code": "D",
+        "danmaku_code": "M",
+        "observed_count": 1,
+        "row_proportion": 0.5,
+        "z_score": 4.3603,
+        "significant": true
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "F",
+        "observed_count": 1,
+        "row_proportion": 0.3333,
+        "z_score": 1.1189,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "F",
+        "observed_count": 1,
+        "row_proportion": 0.3333,
+        "z_score": 1.1189,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 13,
+        "row_proportion": 0.9286,
+        "z_score": 0.9875,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "F",
+        "observed_count": 2,
+        "row_proportion": 0.2222,
+        "z_score": 0.9193,
+        "significant": false
+      },
+      {
+        "protagonist_code": "N",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 1.0,
+        "z_score": 0.7859,
+        "significant": false
+      },
+      {
+        "protagonist_code": "A",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.6417,
+        "significant": false
+      },
+      {
+        "protagonist_code": "C",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.6417,
+        "significant": false
+      },
+      {
+        "protagonist_code": "L",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.4537,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Z",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.4537,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "@C",
+        "observed_count": 7,
+        "row_proportion": 0.7778,
+        "z_score": -0.4105,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "F",
+        "observed_count": 1,
+        "row_proportion": 0.0714,
+        "z_score": -0.5777,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 0.6667,
+        "z_score": -0.7485,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 0.6667,
+        "z_score": -0.7485,
+        "significant": false
+      },
+      {
+        "protagonist_code": "D",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 0.5,
+        "z_score": -1.2375,
+        "significant": false
+      }
+    ]
+  },
+  "11351_d_lag2": {
+    "sn": 11351,
+    "label": "史萊姆",
+    "rater": "d",
+    "lag": 2,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "L",
+        "danmaku_code": "N",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 6.245,
+        "significant": true
+      },
+      {
+        "protagonist_code": "D",
+        "danmaku_code": "F",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 3.7417,
+        "significant": true
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "F",
+        "observed_count": 1,
+        "row_proportion": 0.3333,
+        "z_score": 1.0911,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 13,
+        "row_proportion": 0.9286,
+        "z_score": 0.8233,
+        "significant": false
+      },
+      {
+        "protagonist_code": "N",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 1.0,
+        "z_score": 0.7276,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 1.0,
+        "z_score": 0.7276,
+        "significant": false
+      },
+      {
+        "protagonist_code": "A",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.5941,
+        "significant": false
+      },
+      {
+        "protagonist_code": "C",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.5941,
+        "significant": false
+      },
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.4201,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Z",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.4201,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "@C",
+        "observed_count": 7,
+        "row_proportion": 0.875,
+        "z_score": 0.198,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "F",
+        "observed_count": 1,
+        "row_proportion": 0.125,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "F",
+        "observed_count": 1,
+        "row_proportion": 0.0714,
+        "z_score": -0.6061,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 0.6667,
+        "z_score": -0.8893,
+        "significant": false
+      }
+    ]
+  },
+  "14464_a_lag0": {
+    "sn": 14464,
+    "label": "Re:Zero",
+    "rater": "a",
+    "lag": 0,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "N",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 4.4721,
+        "significant": true
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "N",
+        "observed_count": 1,
+        "row_proportion": 0.5,
+        "z_score": 3.0042,
+        "significant": true
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "I",
+        "observed_count": 1,
+        "row_proportion": 0.0833,
+        "z_score": 1.3525,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "Z",
+        "observed_count": 1,
+        "row_proportion": 0.0833,
+        "z_score": 1.3525,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 15,
+        "row_proportion": 1.0,
+        "z_score": 1.2566,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 5,
+        "row_proportion": 1.0,
+        "z_score": 0.7255,
+        "significant": false
+      },
+      {
+        "protagonist_code": "D",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.4588,
+        "significant": false
+      },
+      {
+        "protagonist_code": "L",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.4588,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Z",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.4588,
+        "significant": false
+      },
+      {
+        "protagonist_code": "S",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3244,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "@C",
+        "observed_count": 10,
+        "row_proportion": 0.8333,
+        "z_score": -0.8429,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 0.5,
+        "z_score": -1.95,
+        "significant": false
+      }
+    ]
+  },
+  "14464_a_lag1": {
+    "sn": 14464,
+    "label": "Re:Zero",
+    "rater": "a",
+    "lag": 1,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "D",
+        "danmaku_code": "N",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 4.4159,
+        "significant": true
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "I",
+        "observed_count": 1,
+        "row_proportion": 0.0833,
+        "z_score": 1.3237,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "Z",
+        "observed_count": 1,
+        "row_proportion": 0.0833,
+        "z_score": 1.3237,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 15,
+        "row_proportion": 1.0,
+        "z_score": 1.2734,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 5,
+        "row_proportion": 1.0,
+        "z_score": 0.7352,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "N",
+        "observed_count": 1,
+        "row_proportion": 0.0833,
+        "z_score": 0.5557,
+        "significant": false
+      },
+      {
+        "protagonist_code": "L",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.465,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.465,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Z",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.465,
+        "significant": false
+      },
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3288,
+        "significant": false
+      },
+      {
+        "protagonist_code": "S",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3288,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "@C",
+        "observed_count": 9,
+        "row_proportion": 0.75,
+        "z_score": -1.7797,
+        "significant": false
+      }
+    ]
+  },
+  "14464_a_lag2": {
+    "sn": 14464,
+    "label": "Re:Zero",
+    "rater": "a",
+    "lag": 2,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "L",
+        "danmaku_code": "N",
+        "observed_count": 1,
+        "row_proportion": 0.5,
+        "z_score": 2.92,
+        "significant": true
+      },
+      {
+        "protagonist_code": "Z",
+        "danmaku_code": "N",
+        "observed_count": 1,
+        "row_proportion": 0.5,
+        "z_score": 2.92,
+        "significant": true
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "I",
+        "observed_count": 1,
+        "row_proportion": 0.0833,
+        "z_score": 1.2943,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "Z",
+        "observed_count": 1,
+        "row_proportion": 0.0833,
+        "z_score": 1.2943,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 15,
+        "row_proportion": 1.0,
+        "z_score": 1.291,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 4,
+        "row_proportion": 1.0,
+        "z_score": 0.6667,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.4714,
+        "significant": false
+      },
+      {
+        "protagonist_code": "D",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3333,
+        "significant": false
+      },
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3333,
+        "significant": false
+      },
+      {
+        "protagonist_code": "S",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3333,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "@C",
+        "observed_count": 10,
+        "row_proportion": 0.8333,
+        "z_score": -0.7698,
+        "significant": false
+      },
+      {
+        "protagonist_code": "L",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 0.5,
+        "z_score": -1.8856,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Z",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 0.5,
+        "z_score": -1.8856,
+        "significant": false
+      }
+    ]
+  },
+  "14464_b_lag0": {
+    "sn": 14464,
+    "label": "Re:Zero",
+    "rater": "b",
+    "lag": 0,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "N",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 4.4721,
+        "significant": true
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "N",
+        "observed_count": 1,
+        "row_proportion": 0.25,
+        "z_score": 1.9007,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "I",
+        "observed_count": 1,
+        "row_proportion": 0.0833,
+        "z_score": 1.3525,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "Z",
+        "observed_count": 1,
+        "row_proportion": 0.0833,
+        "z_score": 1.3525,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 15,
+        "row_proportion": 1.0,
+        "z_score": 1.2566,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 6,
+        "row_proportion": 1.0,
+        "z_score": 0.7947,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Z",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.4588,
+        "significant": false
+      },
+      {
+        "protagonist_code": "G",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3244,
+        "significant": false
+      },
+      {
+        "protagonist_code": "L",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3244,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "@C",
+        "observed_count": 10,
+        "row_proportion": 0.8333,
+        "z_score": -0.8429,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 0.75,
+        "z_score": -1.0544,
+        "significant": false
+      }
+    ]
+  },
+  "14464_b_lag1": {
+    "sn": 14464,
+    "label": "Re:Zero",
+    "rater": "b",
+    "lag": 1,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "N",
+        "observed_count": 1,
+        "row_proportion": 0.25,
+        "z_score": 1.8683,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "I",
+        "observed_count": 1,
+        "row_proportion": 0.0833,
+        "z_score": 1.3237,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "Z",
+        "observed_count": 1,
+        "row_proportion": 0.0833,
+        "z_score": 1.3237,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 15,
+        "row_proportion": 1.0,
+        "z_score": 1.2734,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 6,
+        "row_proportion": 1.0,
+        "z_score": 0.8054,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "N",
+        "observed_count": 1,
+        "row_proportion": 0.0833,
+        "z_score": 0.5557,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Z",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.465,
+        "significant": false
+      },
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3288,
+        "significant": false
+      },
+      {
+        "protagonist_code": "G",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3288,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 0.75,
+        "z_score": -1.0275,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "@C",
+        "observed_count": 9,
+        "row_proportion": 0.75,
+        "z_score": -1.7797,
+        "significant": false
+      }
+    ]
+  },
+  "14464_b_lag2": {
+    "sn": 14464,
+    "label": "Re:Zero",
+    "rater": "b",
+    "lag": 2,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "Z",
+        "danmaku_code": "N",
+        "observed_count": 1,
+        "row_proportion": 0.5,
+        "z_score": 2.92,
+        "significant": true
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "N",
+        "observed_count": 1,
+        "row_proportion": 0.25,
+        "z_score": 1.8353,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "I",
+        "observed_count": 1,
+        "row_proportion": 0.0833,
+        "z_score": 1.2943,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "Z",
+        "observed_count": 1,
+        "row_proportion": 0.0833,
+        "z_score": 1.2943,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 15,
+        "row_proportion": 1.0,
+        "z_score": 1.291,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 5,
+        "row_proportion": 1.0,
+        "z_score": 0.7454,
+        "significant": false
+      },
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3333,
+        "significant": false
+      },
+      {
+        "protagonist_code": "G",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3333,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "@C",
+        "observed_count": 10,
+        "row_proportion": 0.8333,
+        "z_score": -0.7698,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 0.75,
+        "z_score": -1.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Z",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 0.5,
+        "z_score": -1.8856,
+        "significant": false
+      }
+    ]
+  },
+  "14464_c_lag0": {
+    "sn": 14464,
+    "label": "Re:Zero",
+    "rater": "c",
+    "lag": 0,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "N",
+        "observed_count": 1,
+        "row_proportion": 0.5,
+        "z_score": 3.0042,
+        "significant": true
+      },
+      {
+        "protagonist_code": "D",
+        "danmaku_code": "N",
+        "observed_count": 1,
+        "row_proportion": 0.3333,
+        "z_score": 2.3238,
+        "significant": true
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "I",
+        "observed_count": 1,
+        "row_proportion": 0.1429,
+        "z_score": 2.066,
+        "significant": true
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "Z",
+        "observed_count": 1,
+        "row_proportion": 0.1429,
+        "z_score": 2.066,
+        "significant": true
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 16,
+        "row_proportion": 1.0,
+        "z_score": 1.2978,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 1.0,
+        "z_score": 0.562,
+        "significant": false
+      },
+      {
+        "protagonist_code": "L",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.4588,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Q",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.4588,
+        "significant": false
+      },
+      {
+        "protagonist_code": "S",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.4588,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.4588,
+        "significant": false
+      },
+      {
+        "protagonist_code": "A",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3244,
+        "significant": false
+      },
+      {
+        "protagonist_code": "C",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3244,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Z",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3244,
+        "significant": false
+      },
+      {
+        "protagonist_code": "D",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 0.6667,
+        "z_score": -1.4049,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "@C",
+        "observed_count": 5,
+        "row_proportion": 0.7143,
+        "z_score": -1.7168,
+        "significant": false
+      },
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 0.5,
+        "z_score": -1.95,
+        "significant": false
+      }
+    ]
+  },
+  "14464_c_lag1": {
+    "sn": 14464,
+    "label": "Re:Zero",
+    "rater": "c",
+    "lag": 1,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "A",
+        "danmaku_code": "N",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 4.4159,
+        "significant": true
+      },
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "N",
+        "observed_count": 1,
+        "row_proportion": 0.5,
+        "z_score": 2.9624,
+        "significant": true
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "I",
+        "observed_count": 1,
+        "row_proportion": 0.1429,
+        "z_score": 2.0319,
+        "significant": true
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "Z",
+        "observed_count": 1,
+        "row_proportion": 0.1429,
+        "z_score": 2.0319,
+        "significant": true
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 16,
+        "row_proportion": 1.0,
+        "z_score": 1.3152,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 1.0,
+        "z_score": 0.5695,
+        "significant": false
+      },
+      {
+        "protagonist_code": "D",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.465,
+        "significant": false
+      },
+      {
+        "protagonist_code": "L",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.465,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Q",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.465,
+        "significant": false
+      },
+      {
+        "protagonist_code": "S",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.465,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.465,
+        "significant": false
+      },
+      {
+        "protagonist_code": "C",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3288,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Z",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3288,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "@C",
+        "observed_count": 5,
+        "row_proportion": 0.7143,
+        "z_score": -1.6777,
+        "significant": false
+      },
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 0.5,
+        "z_score": -1.9181,
+        "significant": false
+      }
+    ]
+  },
+  "14464_c_lag2": {
+    "sn": 14464,
+    "label": "Re:Zero",
+    "rater": "c",
+    "lag": 2,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "L",
+        "danmaku_code": "N",
+        "observed_count": 1,
+        "row_proportion": 0.5,
+        "z_score": 2.92,
+        "significant": true
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "Z",
+        "observed_count": 1,
+        "row_proportion": 0.1429,
+        "z_score": 1.9973,
+        "significant": true
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "N",
+        "observed_count": 1,
+        "row_proportion": 0.1429,
+        "z_score": 1.1272,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "I",
+        "observed_count": 1,
+        "row_proportion": 0.0625,
+        "z_score": 0.9608,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 1.0,
+        "z_score": 0.5774,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 15,
+        "row_proportion": 0.9375,
+        "z_score": 0.5,
+        "significant": false
+      },
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.4714,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Q",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.4714,
+        "significant": false
+      },
+      {
+        "protagonist_code": "S",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.4714,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.4714,
+        "significant": false
+      },
+      {
+        "protagonist_code": "A",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3333,
+        "significant": false
+      },
+      {
+        "protagonist_code": "C",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3333,
+        "significant": false
+      },
+      {
+        "protagonist_code": "D",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3333,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Z",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3333,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "@C",
+        "observed_count": 5,
+        "row_proportion": 0.7143,
+        "z_score": -1.6378,
+        "significant": false
+      },
+      {
+        "protagonist_code": "L",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 0.5,
+        "z_score": -1.8856,
+        "significant": false
+      }
+    ]
+  },
+  "14464_d_lag0": {
+    "sn": 14464,
+    "label": "Re:Zero",
+    "rater": "d",
+    "lag": 0,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "N",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 4.4721,
+        "significant": true
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "N",
+        "observed_count": 1,
+        "row_proportion": 0.3333,
+        "z_score": 2.3238,
+        "significant": true
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "I",
+        "observed_count": 1,
+        "row_proportion": 0.1,
+        "z_score": 1.5804,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "Z",
+        "observed_count": 1,
+        "row_proportion": 0.1,
+        "z_score": 1.5804,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 16,
+        "row_proportion": 1.0,
+        "z_score": 1.2978,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 6,
+        "row_proportion": 1.0,
+        "z_score": 0.7947,
+        "significant": false
+      },
+      {
+        "protagonist_code": "L",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.4588,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Z",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.4588,
+        "significant": false
+      },
+      {
+        "protagonist_code": "D",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3244,
+        "significant": false
+      },
+      {
+        "protagonist_code": "S",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3244,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "@C",
+        "observed_count": 8,
+        "row_proportion": 0.8,
+        "z_score": -1.1286,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 0.6667,
+        "z_score": -1.4049,
+        "significant": false
+      }
+    ]
+  },
+  "14464_d_lag1": {
+    "sn": 14464,
+    "label": "Re:Zero",
+    "rater": "d",
+    "lag": 1,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "N",
+        "observed_count": 1,
+        "row_proportion": 0.3333,
+        "z_score": 2.288,
+        "significant": true
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "I",
+        "observed_count": 1,
+        "row_proportion": 0.1,
+        "z_score": 1.55,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "Z",
+        "observed_count": 1,
+        "row_proportion": 0.1,
+        "z_score": 1.55,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 16,
+        "row_proportion": 1.0,
+        "z_score": 1.3152,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 6,
+        "row_proportion": 1.0,
+        "z_score": 0.8054,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "N",
+        "observed_count": 1,
+        "row_proportion": 0.1,
+        "z_score": 0.7519,
+        "significant": false
+      },
+      {
+        "protagonist_code": "L",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.465,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Z",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.465,
+        "significant": false
+      },
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3288,
+        "significant": false
+      },
+      {
+        "protagonist_code": "S",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3288,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 0.6667,
+        "z_score": -1.3763,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "@C",
+        "observed_count": 7,
+        "row_proportion": 0.7,
+        "z_score": -2.1575,
+        "significant": false
+      }
+    ]
+  },
+  "14464_d_lag2": {
+    "sn": 14464,
+    "label": "Re:Zero",
+    "rater": "d",
+    "lag": 2,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "L",
+        "danmaku_code": "N",
+        "observed_count": 1,
+        "row_proportion": 0.5,
+        "z_score": 2.92,
+        "significant": true
+      },
+      {
+        "protagonist_code": "Z",
+        "danmaku_code": "N",
+        "observed_count": 1,
+        "row_proportion": 0.5,
+        "z_score": 2.92,
+        "significant": true
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "I",
+        "observed_count": 1,
+        "row_proportion": 0.1,
+        "z_score": 1.5191,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "Z",
+        "observed_count": 1,
+        "row_proportion": 0.1,
+        "z_score": 1.5191,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 16,
+        "row_proportion": 1.0,
+        "z_score": 1.3333,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 5,
+        "row_proportion": 1.0,
+        "z_score": 0.7454,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 1.0,
+        "z_score": 0.5774,
+        "significant": false
+      },
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3333,
+        "significant": false
+      },
+      {
+        "protagonist_code": "S",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3333,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "@C",
+        "observed_count": 8,
+        "row_proportion": 0.8,
+        "z_score": -1.0541,
+        "significant": false
+      },
+      {
+        "protagonist_code": "L",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 0.5,
+        "z_score": -1.8856,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Z",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 0.5,
+        "z_score": -1.8856,
+        "significant": false
+      }
+    ]
+  },
+  "8649_a_lag0": {
+    "sn": 8649,
+    "label": "來自深淵",
+    "rater": "a",
+    "lag": 0,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "D",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "J",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "S",
+        "danmaku_code": "@C",
+        "observed_count": 4,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "T",
+        "danmaku_code": "@C",
+        "observed_count": 34,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "V",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      }
+    ]
+  },
+  "8649_a_lag1": {
+    "sn": 8649,
+    "label": "來自深淵",
+    "rater": "a",
+    "lag": 1,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "D",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "J",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "S",
+        "danmaku_code": "@C",
+        "observed_count": 4,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "T",
+        "danmaku_code": "@C",
+        "observed_count": 33,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "V",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      }
+    ]
+  },
+  "8649_a_lag2": {
+    "sn": 8649,
+    "label": "來自深淵",
+    "rater": "a",
+    "lag": 2,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "D",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "J",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "S",
+        "danmaku_code": "@C",
+        "observed_count": 4,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "T",
+        "danmaku_code": "@C",
+        "observed_count": 32,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "V",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      }
+    ]
+  },
+  "8649_b_lag0": {
+    "sn": 8649,
+    "label": "來自深淵",
+    "rater": "b",
+    "lag": 0,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "J",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "S",
+        "danmaku_code": "@C",
+        "observed_count": 4,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "T",
+        "danmaku_code": "@C",
+        "observed_count": 35,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Z",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      }
+    ]
+  },
+  "8649_b_lag1": {
+    "sn": 8649,
+    "label": "來自深淵",
+    "rater": "b",
+    "lag": 1,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "J",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "S",
+        "danmaku_code": "@C",
+        "observed_count": 4,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "T",
+        "danmaku_code": "@C",
+        "observed_count": 34,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Z",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      }
+    ]
+  },
+  "8649_b_lag2": {
+    "sn": 8649,
+    "label": "來自深淵",
+    "rater": "b",
+    "lag": 2,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "J",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "S",
+        "danmaku_code": "@C",
+        "observed_count": 4,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "T",
+        "danmaku_code": "@C",
+        "observed_count": 33,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Z",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      }
+    ]
+  },
+  "8649_c_lag0": {
+    "sn": 8649,
+    "label": "來自深淵",
+    "rater": "c",
+    "lag": 0,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "D",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "J",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "S",
+        "danmaku_code": "@C",
+        "observed_count": 5,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "T",
+        "danmaku_code": "@C",
+        "observed_count": 29,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Z",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      }
+    ]
+  },
+  "8649_c_lag1": {
+    "sn": 8649,
+    "label": "來自深淵",
+    "rater": "c",
+    "lag": 1,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "D",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "J",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "S",
+        "danmaku_code": "@C",
+        "observed_count": 5,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "T",
+        "danmaku_code": "@C",
+        "observed_count": 28,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Z",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      }
+    ]
+  },
+  "8649_c_lag2": {
+    "sn": 8649,
+    "label": "來自深淵",
+    "rater": "c",
+    "lag": 2,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "D",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "J",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "S",
+        "danmaku_code": "@C",
+        "observed_count": 5,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "T",
+        "danmaku_code": "@C",
+        "observed_count": 27,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Z",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      }
+    ]
+  },
+  "8649_d_lag0": {
+    "sn": 8649,
+    "label": "來自深淵",
+    "rater": "d",
+    "lag": 0,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "S",
+        "danmaku_code": "@C",
+        "observed_count": 5,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "T",
+        "danmaku_code": "@C",
+        "observed_count": 30,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "V",
+        "danmaku_code": "@C",
+        "observed_count": 4,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Z",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      }
+    ]
+  },
+  "8649_d_lag1": {
+    "sn": 8649,
+    "label": "來自深淵",
+    "rater": "d",
+    "lag": 1,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "S",
+        "danmaku_code": "@C",
+        "observed_count": 5,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "T",
+        "danmaku_code": "@C",
+        "observed_count": 29,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "V",
+        "danmaku_code": "@C",
+        "observed_count": 4,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Z",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      }
+    ]
+  },
+  "8649_d_lag2": {
+    "sn": 8649,
+    "label": "來自深淵",
+    "rater": "d",
+    "lag": 2,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "S",
+        "danmaku_code": "@C",
+        "observed_count": 5,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "T",
+        "danmaku_code": "@C",
+        "observed_count": 28,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "V",
+        "danmaku_code": "@C",
+        "observed_count": 4,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Z",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.0,
+        "significant": false
+      }
+    ]
+  },
+  "27444_a_lag0": {
+    "sn": 27444,
+    "label": "異世界美少女大叔",
+    "rater": "a",
+    "lag": 0,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "I",
+        "observed_count": 1,
+        "row_proportion": 0.5,
+        "z_score": 3.0042,
+        "significant": true
+      },
+      {
+        "protagonist_code": "W",
+        "danmaku_code": "C",
+        "observed_count": 1,
+        "row_proportion": 0.3333,
+        "z_score": 2.3238,
+        "significant": true
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@A",
+        "observed_count": 1,
+        "row_proportion": 0.0833,
+        "z_score": 1.3525,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 13,
+        "row_proportion": 1.0,
+        "z_score": 1.3254,
+        "significant": false
+      },
+      {
+        "protagonist_code": "N",
+        "danmaku_code": "@C",
+        "observed_count": 6,
+        "row_proportion": 1.0,
+        "z_score": 0.9005,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "C",
+        "observed_count": 1,
+        "row_proportion": 0.0833,
+        "z_score": 0.5809,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "I",
+        "observed_count": 1,
+        "row_proportion": 0.0833,
+        "z_score": 0.5809,
+        "significant": false
+      },
+      {
+        "protagonist_code": "E",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.5199,
+        "significant": false
+      },
+      {
+        "protagonist_code": "A",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3676,
+        "significant": false
+      },
+      {
+        "protagonist_code": "C",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3676,
+        "significant": false
+      },
+      {
+        "protagonist_code": "R",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3676,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Y",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3676,
+        "significant": false
+      },
+      {
+        "protagonist_code": "W",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 0.6667,
+        "z_score": -1.1461,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 9,
+        "row_proportion": 0.75,
+        "z_score": -1.4008,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 0.5,
+        "z_score": -1.6636,
+        "significant": false
+      }
+    ]
+  },
+  "27444_a_lag1": {
+    "sn": 27444,
+    "label": "異世界美少女大叔",
+    "rater": "a",
+    "lag": 1,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "N",
+        "danmaku_code": "@A",
+        "observed_count": 1,
+        "row_proportion": 0.1667,
+        "z_score": 2.2592,
+        "significant": true
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "C",
+        "observed_count": 2,
+        "row_proportion": 0.1818,
+        "z_score": 2.0484,
+        "significant": true
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "I",
+        "observed_count": 2,
+        "row_proportion": 0.1818,
+        "z_score": 2.0484,
+        "significant": true
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 13,
+        "row_proportion": 1.0,
+        "z_score": 1.3437,
+        "significant": false
+      },
+      {
+        "protagonist_code": "W",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 1.0,
+        "z_score": 0.6455,
+        "significant": false
+      },
+      {
+        "protagonist_code": "E",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.527,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.527,
+        "significant": false
+      },
+      {
+        "protagonist_code": "A",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3727,
+        "significant": false
+      },
+      {
+        "protagonist_code": "C",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3727,
+        "significant": false
+      },
+      {
+        "protagonist_code": "R",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3727,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Y",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3727,
+        "significant": false
+      },
+      {
+        "protagonist_code": "N",
+        "danmaku_code": "@C",
+        "observed_count": 5,
+        "row_proportion": 0.8333,
+        "z_score": -0.3347,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 7,
+        "row_proportion": 0.6364,
+        "z_score": -2.4496,
+        "significant": false
+      }
+    ]
+  },
+  "27444_a_lag2": {
+    "sn": 27444,
+    "label": "異世界美少女大叔",
+    "rater": "a",
+    "lag": 2,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "W",
+        "danmaku_code": "C",
+        "observed_count": 1,
+        "row_proportion": 0.3333,
+        "z_score": 2.2517,
+        "significant": true
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "I",
+        "observed_count": 2,
+        "row_proportion": 0.2,
+        "z_score": 2.1764,
+        "significant": true
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@A",
+        "observed_count": 1,
+        "row_proportion": 0.0769,
+        "z_score": 1.1991,
+        "significant": false
+      },
+      {
+        "protagonist_code": "N",
+        "danmaku_code": "@C",
+        "observed_count": 6,
+        "row_proportion": 1.0,
+        "z_score": 0.9258,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "C",
+        "observed_count": 1,
+        "row_proportion": 0.1,
+        "z_score": 0.7255,
+        "significant": false
+      },
+      {
+        "protagonist_code": "E",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.5345,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.5345,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 12,
+        "row_proportion": 0.9231,
+        "z_score": 0.5241,
+        "significant": false
+      },
+      {
+        "protagonist_code": "A",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.378,
+        "significant": false
+      },
+      {
+        "protagonist_code": "C",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.378,
+        "significant": false
+      },
+      {
+        "protagonist_code": "R",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.378,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Y",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.378,
+        "significant": false
+      },
+      {
+        "protagonist_code": "W",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 0.6667,
+        "z_score": -1.0911,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 7,
+        "row_proportion": 0.7,
+        "z_score": -1.6733,
+        "significant": false
+      }
+    ]
+  },
+  "27444_b_lag0": {
+    "sn": 27444,
+    "label": "異世界美少女大叔",
+    "rater": "b",
+    "lag": 0,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "W",
+        "danmaku_code": "C",
+        "observed_count": 1,
+        "row_proportion": 0.3333,
+        "z_score": 2.3238,
+        "significant": true
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "I",
+        "observed_count": 1,
+        "row_proportion": 0.3333,
+        "z_score": 2.3238,
+        "significant": true
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@A",
+        "observed_count": 1,
+        "row_proportion": 0.0909,
+        "z_score": 1.4597,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 13,
+        "row_proportion": 1.0,
+        "z_score": 1.3254,
+        "significant": false
+      },
+      {
+        "protagonist_code": "N",
+        "danmaku_code": "@C",
+        "observed_count": 6,
+        "row_proportion": 1.0,
+        "z_score": 0.9005,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "C",
+        "observed_count": 1,
+        "row_proportion": 0.0909,
+        "z_score": 0.6742,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "I",
+        "observed_count": 1,
+        "row_proportion": 0.0909,
+        "z_score": 0.6742,
+        "significant": false
+      },
+      {
+        "protagonist_code": "E",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.5199,
+        "significant": false
+      },
+      {
+        "protagonist_code": "A",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3676,
+        "significant": false
+      },
+      {
+        "protagonist_code": "C",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3676,
+        "significant": false
+      },
+      {
+        "protagonist_code": "R",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3676,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Y",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3676,
+        "significant": false
+      },
+      {
+        "protagonist_code": "W",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 0.6667,
+        "z_score": -1.1461,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 0.6667,
+        "z_score": -1.1461,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 8,
+        "row_proportion": 0.7273,
+        "z_score": -1.5739,
+        "significant": false
+      }
+    ]
+  },
+  "27444_b_lag1": {
+    "sn": 27444,
+    "label": "異世界美少女大叔",
+    "rater": "b",
+    "lag": 1,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "N",
+        "danmaku_code": "@A",
+        "observed_count": 1,
+        "row_proportion": 0.1667,
+        "z_score": 2.2592,
+        "significant": true
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "C",
+        "observed_count": 2,
+        "row_proportion": 0.2,
+        "z_score": 2.22,
+        "significant": true
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "I",
+        "observed_count": 2,
+        "row_proportion": 0.2,
+        "z_score": 2.22,
+        "significant": true
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 13,
+        "row_proportion": 1.0,
+        "z_score": 1.3437,
+        "significant": false
+      },
+      {
+        "protagonist_code": "W",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 1.0,
+        "z_score": 0.6455,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 1.0,
+        "z_score": 0.6455,
+        "significant": false
+      },
+      {
+        "protagonist_code": "E",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.527,
+        "significant": false
+      },
+      {
+        "protagonist_code": "A",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3727,
+        "significant": false
+      },
+      {
+        "protagonist_code": "C",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3727,
+        "significant": false
+      },
+      {
+        "protagonist_code": "R",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3727,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Y",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3727,
+        "significant": false
+      },
+      {
+        "protagonist_code": "N",
+        "danmaku_code": "@C",
+        "observed_count": 5,
+        "row_proportion": 0.8333,
+        "z_score": -0.3347,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 6,
+        "row_proportion": 0.6,
+        "z_score": -2.687,
+        "significant": false
+      }
+    ]
+  },
+  "27444_b_lag2": {
+    "sn": 27444,
+    "label": "異世界美少女大叔",
+    "rater": "b",
+    "lag": 2,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "I",
+        "observed_count": 2,
+        "row_proportion": 0.2222,
+        "z_score": 2.3706,
+        "significant": true
+      },
+      {
+        "protagonist_code": "W",
+        "danmaku_code": "C",
+        "observed_count": 1,
+        "row_proportion": 0.3333,
+        "z_score": 2.2517,
+        "significant": true
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@A",
+        "observed_count": 1,
+        "row_proportion": 0.0769,
+        "z_score": 1.1991,
+        "significant": false
+      },
+      {
+        "protagonist_code": "N",
+        "danmaku_code": "@C",
+        "observed_count": 6,
+        "row_proportion": 1.0,
+        "z_score": 0.9258,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "C",
+        "observed_count": 1,
+        "row_proportion": 0.1111,
+        "z_score": 0.8412,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 1.0,
+        "z_score": 0.6547,
+        "significant": false
+      },
+      {
+        "protagonist_code": "E",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.5345,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 12,
+        "row_proportion": 0.9231,
+        "z_score": 0.5241,
+        "significant": false
+      },
+      {
+        "protagonist_code": "A",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.378,
+        "significant": false
+      },
+      {
+        "protagonist_code": "C",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.378,
+        "significant": false
+      },
+      {
+        "protagonist_code": "R",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.378,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Y",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.378,
+        "significant": false
+      },
+      {
+        "protagonist_code": "W",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 0.6667,
+        "z_score": -1.0911,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 6,
+        "row_proportion": 0.6667,
+        "z_score": -1.8898,
+        "significant": false
+      }
+    ]
+  },
+  "27444_c_lag0": {
+    "sn": 27444,
+    "label": "異世界美少女大叔",
+    "rater": "c",
+    "lag": 0,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "M",
+        "danmaku_code": "I",
+        "observed_count": 1,
+        "row_proportion": 0.5,
+        "z_score": 3.0042,
+        "significant": true
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@A",
+        "observed_count": 1,
+        "row_proportion": 0.2,
+        "z_score": 2.5842,
+        "significant": true
+      },
+      {
+        "protagonist_code": "D",
+        "danmaku_code": "C",
+        "observed_count": 1,
+        "row_proportion": 0.25,
+        "z_score": 1.9007,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "I",
+        "observed_count": 1,
+        "row_proportion": 0.1667,
+        "z_score": 1.3693,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "C",
+        "observed_count": 1,
+        "row_proportion": 0.125,
+        "z_score": 1.0277,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Q",
+        "danmaku_code": "@C",
+        "observed_count": 5,
+        "row_proportion": 1.0,
+        "z_score": 0.822,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 4,
+        "row_proportion": 1.0,
+        "z_score": 0.7352,
+        "significant": false
+      },
+      {
+        "protagonist_code": "P",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 1.0,
+        "z_score": 0.6367,
+        "significant": false
+      },
+      {
+        "protagonist_code": "B",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3676,
+        "significant": false
+      },
+      {
+        "protagonist_code": "I",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3676,
+        "significant": false
+      },
+      {
+        "protagonist_code": "L",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3676,
+        "significant": false
+      },
+      {
+        "protagonist_code": "N",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3676,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3676,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "@C",
+        "observed_count": 7,
+        "row_proportion": 0.875,
+        "z_score": -0.052,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 5,
+        "row_proportion": 0.8333,
+        "z_score": -0.3602,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 4,
+        "row_proportion": 0.8,
+        "z_score": -0.559,
+        "significant": false
+      },
+      {
+        "protagonist_code": "D",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 0.75,
+        "z_score": -0.8087,
+        "significant": false
+      },
+      {
+        "protagonist_code": "M",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 0.5,
+        "z_score": -1.6636,
+        "significant": false
+      }
+    ]
+  },
+  "27444_c_lag1": {
+    "sn": 27444,
+    "label": "異世界美少女大叔",
+    "rater": "c",
+    "lag": 1,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "M",
+        "danmaku_code": "I",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 6.245,
+        "significant": true
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "C",
+        "observed_count": 2,
+        "row_proportion": 0.25,
+        "z_score": 2.6421,
+        "significant": true
+      },
+      {
+        "protagonist_code": "Q",
+        "danmaku_code": "@A",
+        "observed_count": 1,
+        "row_proportion": 0.2,
+        "z_score": 2.5456,
+        "significant": true
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 5,
+        "row_proportion": 1.0,
+        "z_score": 0.8333,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 5,
+        "row_proportion": 1.0,
+        "z_score": 0.8333,
+        "significant": false
+      },
+      {
+        "protagonist_code": "D",
+        "danmaku_code": "@C",
+        "observed_count": 4,
+        "row_proportion": 1.0,
+        "z_score": 0.7454,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 4,
+        "row_proportion": 1.0,
+        "z_score": 0.7454,
+        "significant": false
+      },
+      {
+        "protagonist_code": "P",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 1.0,
+        "z_score": 0.6455,
+        "significant": false
+      },
+      {
+        "protagonist_code": "B",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3727,
+        "significant": false
+      },
+      {
+        "protagonist_code": "I",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3727,
+        "significant": false
+      },
+      {
+        "protagonist_code": "L",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3727,
+        "significant": false
+      },
+      {
+        "protagonist_code": "N",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3727,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3727,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Q",
+        "danmaku_code": "@C",
+        "observed_count": 4,
+        "row_proportion": 0.8,
+        "z_score": -0.5333,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "@C",
+        "observed_count": 6,
+        "row_proportion": 0.75,
+        "z_score": -1.1068,
+        "significant": false
+      }
+    ]
+  },
+  "27444_c_lag2": {
+    "sn": 27444,
+    "label": "異世界美少女大叔",
+    "rater": "c",
+    "lag": 2,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "M",
+        "danmaku_code": "I",
+        "observed_count": 1,
+        "row_proportion": 0.5,
+        "z_score": 2.92,
+        "significant": true
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@A",
+        "observed_count": 1,
+        "row_proportion": 0.2,
+        "z_score": 2.5064,
+        "significant": true
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "C",
+        "observed_count": 1,
+        "row_proportion": 0.3333,
+        "z_score": 2.2517,
+        "significant": true
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "I",
+        "observed_count": 1,
+        "row_proportion": 0.2,
+        "z_score": 1.539,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "C",
+        "observed_count": 1,
+        "row_proportion": 0.125,
+        "z_score": 0.9733,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Q",
+        "danmaku_code": "@C",
+        "observed_count": 5,
+        "row_proportion": 1.0,
+        "z_score": 0.8452,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 5,
+        "row_proportion": 1.0,
+        "z_score": 0.8452,
+        "significant": false
+      },
+      {
+        "protagonist_code": "D",
+        "danmaku_code": "@C",
+        "observed_count": 4,
+        "row_proportion": 1.0,
+        "z_score": 0.7559,
+        "significant": false
+      },
+      {
+        "protagonist_code": "P",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 1.0,
+        "z_score": 0.6547,
+        "significant": false
+      },
+      {
+        "protagonist_code": "B",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.378,
+        "significant": false
+      },
+      {
+        "protagonist_code": "I",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.378,
+        "significant": false
+      },
+      {
+        "protagonist_code": "L",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.378,
+        "significant": false
+      },
+      {
+        "protagonist_code": "N",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.378,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.378,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "@C",
+        "observed_count": 7,
+        "row_proportion": 0.875,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 0.6667,
+        "z_score": -1.0911,
+        "significant": false
+      },
+      {
+        "protagonist_code": "M",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 0.5,
+        "z_score": -1.6036,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 0.6,
+        "z_score": -1.8593,
+        "significant": false
+      }
+    ]
+  },
+  "27444_d_lag0": {
+    "sn": 27444,
+    "label": "異世界美少女大叔",
+    "rater": "d",
+    "lag": 0,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "I",
+        "observed_count": 1,
+        "row_proportion": 0.5,
+        "z_score": 3.0042,
+        "significant": true
+      },
+      {
+        "protagonist_code": "N",
+        "danmaku_code": "@A",
+        "observed_count": 1,
+        "row_proportion": 0.1667,
+        "z_score": 2.2953,
+        "significant": true
+      },
+      {
+        "protagonist_code": "W",
+        "danmaku_code": "C",
+        "observed_count": 1,
+        "row_proportion": 0.25,
+        "z_score": 1.9007,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 13,
+        "row_proportion": 1.0,
+        "z_score": 1.3254,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "C",
+        "observed_count": 1,
+        "row_proportion": 0.0833,
+        "z_score": 0.5809,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "I",
+        "observed_count": 1,
+        "row_proportion": 0.0833,
+        "z_score": 0.5809,
+        "significant": false
+      },
+      {
+        "protagonist_code": "E",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.5199,
+        "significant": false
+      },
+      {
+        "protagonist_code": "A",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3676,
+        "significant": false
+      },
+      {
+        "protagonist_code": "C",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3676,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3676,
+        "significant": false
+      },
+      {
+        "protagonist_code": "N",
+        "danmaku_code": "@C",
+        "observed_count": 5,
+        "row_proportion": 0.8333,
+        "z_score": -0.3602,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 10,
+        "row_proportion": 0.8333,
+        "z_score": -0.5094,
+        "significant": false
+      },
+      {
+        "protagonist_code": "W",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 0.75,
+        "z_score": -0.8087,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 0.5,
+        "z_score": -1.6636,
+        "significant": false
+      }
+    ]
+  },
+  "27444_d_lag1": {
+    "sn": 27444,
+    "label": "異世界美少女大叔",
+    "rater": "d",
+    "lag": 1,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "N",
+        "danmaku_code": "@A",
+        "observed_count": 1,
+        "row_proportion": 0.1667,
+        "z_score": 2.2592,
+        "significant": true
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "C",
+        "observed_count": 2,
+        "row_proportion": 0.1818,
+        "z_score": 2.0484,
+        "significant": true
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "I",
+        "observed_count": 2,
+        "row_proportion": 0.1818,
+        "z_score": 2.0484,
+        "significant": true
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 13,
+        "row_proportion": 1.0,
+        "z_score": 1.3437,
+        "significant": false
+      },
+      {
+        "protagonist_code": "W",
+        "danmaku_code": "@C",
+        "observed_count": 4,
+        "row_proportion": 1.0,
+        "z_score": 0.7454,
+        "significant": false
+      },
+      {
+        "protagonist_code": "E",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.527,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.527,
+        "significant": false
+      },
+      {
+        "protagonist_code": "A",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3727,
+        "significant": false
+      },
+      {
+        "protagonist_code": "C",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3727,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.3727,
+        "significant": false
+      },
+      {
+        "protagonist_code": "N",
+        "danmaku_code": "@C",
+        "observed_count": 5,
+        "row_proportion": 0.8333,
+        "z_score": -0.3347,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 7,
+        "row_proportion": 0.6364,
+        "z_score": -2.4496,
+        "significant": false
+      }
+    ]
+  },
+  "27444_d_lag2": {
+    "sn": 27444,
+    "label": "異世界美少女大叔",
+    "rater": "d",
+    "lag": 2,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "W",
+        "danmaku_code": "C",
+        "observed_count": 1,
+        "row_proportion": 0.25,
+        "z_score": 1.8353,
+        "significant": false
+      },
+      {
+        "protagonist_code": "N",
+        "danmaku_code": "I",
+        "observed_count": 1,
+        "row_proportion": 0.1667,
+        "z_score": 1.3112,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@A",
+        "observed_count": 1,
+        "row_proportion": 0.0769,
+        "z_score": 1.1991,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "C",
+        "observed_count": 1,
+        "row_proportion": 0.1,
+        "z_score": 0.7255,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "I",
+        "observed_count": 1,
+        "row_proportion": 0.1,
+        "z_score": 0.7255,
+        "significant": false
+      },
+      {
+        "protagonist_code": "E",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.5345,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.5345,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 12,
+        "row_proportion": 0.9231,
+        "z_score": 0.5241,
+        "significant": false
+      },
+      {
+        "protagonist_code": "A",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.378,
+        "significant": false
+      },
+      {
+        "protagonist_code": "C",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.378,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.378,
+        "significant": false
+      },
+      {
+        "protagonist_code": "N",
+        "danmaku_code": "@C",
+        "observed_count": 5,
+        "row_proportion": 0.8333,
+        "z_score": -0.3086,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 8,
+        "row_proportion": 0.8,
+        "z_score": -0.7171,
+        "significant": false
+      },
+      {
+        "protagonist_code": "W",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 0.75,
+        "z_score": -0.7559,
+        "significant": false
+      }
+    ]
+  },
+  "7296_a_lag0": {
+    "sn": 7296,
+    "label": "為美好世界",
+    "rater": "a",
+    "lag": 0,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "Z",
+        "danmaku_code": "F",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 6.4031,
+        "significant": true
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "B",
+        "observed_count": 1,
+        "row_proportion": 0.25,
+        "z_score": 2.9673,
+        "significant": true
+      },
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "H",
+        "observed_count": 1,
+        "row_proportion": 0.0714,
+        "z_score": 1.1687,
+        "significant": false
+      },
+      {
+        "protagonist_code": "R",
+        "danmaku_code": "@C",
+        "observed_count": 9,
+        "row_proportion": 1.0,
+        "z_score": 0.8321,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 4,
+        "row_proportion": 1.0,
+        "z_score": 0.5547,
+        "significant": false
+      },
+      {
+        "protagonist_code": "N",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 1.0,
+        "z_score": 0.4804,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.3922,
+        "significant": false
+      },
+      {
+        "protagonist_code": "A",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.2774,
+        "significant": false
+      },
+      {
+        "protagonist_code": "E",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.2774,
+        "significant": false
+      },
+      {
+        "protagonist_code": "G",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.2774,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.2774,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Y",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.2774,
+        "significant": false
+      },
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "@C",
+        "observed_count": 13,
+        "row_proportion": 0.9286,
+        "z_score": 0.0,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 0.75,
+        "z_score": -1.3868,
+        "significant": false
+      }
+    ]
+  },
+  "7296_a_lag1": {
+    "sn": 7296,
+    "label": "為美好世界",
+    "rater": "a",
+    "lag": 1,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "N",
+        "danmaku_code": "H",
+        "observed_count": 1,
+        "row_proportion": 0.3333,
+        "z_score": 3.4689,
+        "significant": true
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "B",
+        "observed_count": 1,
+        "row_proportion": 0.25,
+        "z_score": 2.9251,
+        "significant": true
+      },
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "F",
+        "observed_count": 1,
+        "row_proportion": 0.0714,
+        "z_score": 1.141,
+        "significant": false
+      },
+      {
+        "protagonist_code": "R",
+        "danmaku_code": "@C",
+        "observed_count": 9,
+        "row_proportion": 1.0,
+        "z_score": 0.8429,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 1.0,
+        "z_score": 0.4867,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.3974,
+        "significant": false
+      },
+      {
+        "protagonist_code": "A",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.281,
+        "significant": false
+      },
+      {
+        "protagonist_code": "E",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.281,
+        "significant": false
+      },
+      {
+        "protagonist_code": "G",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.281,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.281,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Y",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.281,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Z",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.281,
+        "significant": false
+      },
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "@C",
+        "observed_count": 13,
+        "row_proportion": 0.9286,
+        "z_score": 0.025,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 0.75,
+        "z_score": -1.358,
+        "significant": false
+      },
+      {
+        "protagonist_code": "N",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 0.6667,
+        "z_score": -1.7304,
+        "significant": false
+      }
+    ]
+  },
+  "7296_a_lag2": {
+    "sn": 7296,
+    "label": "為美好世界",
+    "rater": "a",
+    "lag": 2,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "A",
+        "danmaku_code": "B",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 6.245,
+        "significant": true
+      },
+      {
+        "protagonist_code": "G",
+        "danmaku_code": "F",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 6.245,
+        "significant": true
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "H",
+        "observed_count": 1,
+        "row_proportion": 0.3333,
+        "z_score": 3.4207,
+        "significant": true
+      },
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "@C",
+        "observed_count": 14,
+        "row_proportion": 1.0,
+        "z_score": 1.0654,
+        "significant": false
+      },
+      {
+        "protagonist_code": "R",
+        "danmaku_code": "@C",
+        "observed_count": 9,
+        "row_proportion": 1.0,
+        "z_score": 0.8542,
+        "significant": false
+      },
+      {
+        "protagonist_code": "N",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 1.0,
+        "z_score": 0.4932,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 1.0,
+        "z_score": 0.4932,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.4027,
+        "significant": false
+      },
+      {
+        "protagonist_code": "E",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.2847,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.2847,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Y",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.2847,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Z",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.2847,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 0.6667,
+        "z_score": -1.6988,
+        "significant": false
+      }
+    ]
+  },
+  "7296_b_lag0": {
+    "sn": 7296,
+    "label": "為美好世界",
+    "rater": "b",
+    "lag": 0,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "Z",
+        "danmaku_code": "F",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 6.4031,
+        "significant": true
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "B",
+        "observed_count": 1,
+        "row_proportion": 0.3333,
+        "z_score": 3.5165,
+        "significant": true
+      },
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "H",
+        "observed_count": 1,
+        "row_proportion": 0.0556,
+        "z_score": 0.8835,
+        "significant": false
+      },
+      {
+        "protagonist_code": "R",
+        "danmaku_code": "@C",
+        "observed_count": 9,
+        "row_proportion": 1.0,
+        "z_score": 0.8321,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 4,
+        "row_proportion": 1.0,
+        "z_score": 0.5547,
+        "significant": false
+      },
+      {
+        "protagonist_code": "N",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 1.0,
+        "z_score": 0.4804,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 1.0,
+        "z_score": 0.4804,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Y",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.2774,
+        "significant": false
+      },
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "@C",
+        "observed_count": 17,
+        "row_proportion": 0.9444,
+        "z_score": 0.2615,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 0.6667,
+        "z_score": -1.7614,
+        "significant": false
+      }
+    ]
+  },
+  "7296_b_lag1": {
+    "sn": 7296,
+    "label": "為美好世界",
+    "rater": "b",
+    "lag": 1,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "N",
+        "danmaku_code": "H",
+        "observed_count": 1,
+        "row_proportion": 0.3333,
+        "z_score": 3.4689,
+        "significant": true
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "B",
+        "observed_count": 1,
+        "row_proportion": 0.3333,
+        "z_score": 3.4689,
+        "significant": true
+      },
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "F",
+        "observed_count": 1,
+        "row_proportion": 0.0556,
+        "z_score": 0.8572,
+        "significant": false
+      },
+      {
+        "protagonist_code": "R",
+        "danmaku_code": "@C",
+        "observed_count": 9,
+        "row_proportion": 1.0,
+        "z_score": 0.8429,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 1.0,
+        "z_score": 0.4867,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 1.0,
+        "z_score": 0.4867,
+        "significant": false
+      },
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "@C",
+        "observed_count": 17,
+        "row_proportion": 0.9444,
+        "z_score": 0.287,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Y",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.281,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Z",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.281,
+        "significant": false
+      },
+      {
+        "protagonist_code": "N",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 0.6667,
+        "z_score": -1.7304,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 0.6667,
+        "z_score": -1.7304,
+        "significant": false
+      }
+    ]
+  },
+  "7296_b_lag2": {
+    "sn": 7296,
+    "label": "為美好世界",
+    "rater": "b",
+    "lag": 2,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "H",
+        "observed_count": 1,
+        "row_proportion": 0.5,
+        "z_score": 4.3027,
+        "significant": true
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "B",
+        "observed_count": 1,
+        "row_proportion": 0.3333,
+        "z_score": 3.4207,
+        "significant": true
+      },
+      {
+        "protagonist_code": "R",
+        "danmaku_code": "@C",
+        "observed_count": 9,
+        "row_proportion": 1.0,
+        "z_score": 0.8542,
+        "significant": false
+      },
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "F",
+        "observed_count": 1,
+        "row_proportion": 0.0556,
+        "z_score": 0.8303,
+        "significant": false
+      },
+      {
+        "protagonist_code": "N",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 1.0,
+        "z_score": 0.4932,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 1.0,
+        "z_score": 0.4932,
+        "significant": false
+      },
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "@C",
+        "observed_count": 17,
+        "row_proportion": 0.9444,
+        "z_score": 0.3132,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Y",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.2847,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Z",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.2847,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 0.6667,
+        "z_score": -1.6988,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 0.5,
+        "z_score": -2.2819,
+        "significant": false
+      }
+    ]
+  },
+  "7296_c_lag0": {
+    "sn": 7296,
+    "label": "為美好世界",
+    "rater": "c",
+    "lag": 0,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "Y",
+        "danmaku_code": "F",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 6.4031,
+        "significant": true
+      },
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "H",
+        "observed_count": 1,
+        "row_proportion": 0.125,
+        "z_score": 1.8773,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "B",
+        "observed_count": 1,
+        "row_proportion": 0.125,
+        "z_score": 1.8773,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 6,
+        "row_proportion": 1.0,
+        "z_score": 0.6794,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 1.0,
+        "z_score": 0.4804,
+        "significant": false
+      },
+      {
+        "protagonist_code": "N",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 1.0,
+        "z_score": 0.4804,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.3922,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.3922,
+        "significant": false
+      },
+      {
+        "protagonist_code": "A",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.2774,
+        "significant": false
+      },
+      {
+        "protagonist_code": "E",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.2774,
+        "significant": false
+      },
+      {
+        "protagonist_code": "G",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.2774,
+        "significant": false
+      },
+      {
+        "protagonist_code": "M",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.2774,
+        "significant": false
+      },
+      {
+        "protagonist_code": "P",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.2774,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Q",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.2774,
+        "significant": false
+      },
+      {
+        "protagonist_code": "R",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.2774,
+        "significant": false
+      },
+      {
+        "protagonist_code": "S",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.2774,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Z",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.2774,
+        "significant": false
+      },
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "@C",
+        "observed_count": 7,
+        "row_proportion": 0.875,
+        "z_score": -0.5883,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 7,
+        "row_proportion": 0.875,
+        "z_score": -0.5883,
+        "significant": false
+      }
+    ]
+  },
+  "7296_c_lag1": {
+    "sn": 7296,
+    "label": "為美好世界",
+    "rater": "c",
+    "lag": 1,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "Z",
+        "danmaku_code": "B",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 6.3246,
+        "significant": true
+      },
+      {
+        "protagonist_code": "N",
+        "danmaku_code": "H",
+        "observed_count": 1,
+        "row_proportion": 0.3333,
+        "z_score": 3.4689,
+        "significant": true
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "F",
+        "observed_count": 1,
+        "row_proportion": 0.2,
+        "z_score": 2.5456,
+        "significant": true
+      },
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "@C",
+        "observed_count": 8,
+        "row_proportion": 1.0,
+        "z_score": 0.7947,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 8,
+        "row_proportion": 1.0,
+        "z_score": 0.7947,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 1.0,
+        "z_score": 0.4867,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.3974,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.3974,
+        "significant": false
+      },
+      {
+        "protagonist_code": "A",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.281,
+        "significant": false
+      },
+      {
+        "protagonist_code": "E",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.281,
+        "significant": false
+      },
+      {
+        "protagonist_code": "G",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.281,
+        "significant": false
+      },
+      {
+        "protagonist_code": "M",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.281,
+        "significant": false
+      },
+      {
+        "protagonist_code": "P",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.281,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Q",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.281,
+        "significant": false
+      },
+      {
+        "protagonist_code": "R",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.281,
+        "significant": false
+      },
+      {
+        "protagonist_code": "S",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.281,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Y",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.281,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 4,
+        "row_proportion": 0.8,
+        "z_score": -1.089,
+        "significant": false
+      },
+      {
+        "protagonist_code": "N",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 0.6667,
+        "z_score": -1.7304,
+        "significant": false
+      }
+    ]
+  },
+  "7296_c_lag2": {
+    "sn": 7296,
+    "label": "為美好世界",
+    "rater": "c",
+    "lag": 2,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "A",
+        "danmaku_code": "B",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 6.245,
+        "significant": true
+      },
+      {
+        "protagonist_code": "G",
+        "danmaku_code": "F",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 6.245,
+        "significant": true
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "H",
+        "observed_count": 1,
+        "row_proportion": 0.125,
+        "z_score": 1.8116,
+        "significant": false
+      },
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "@C",
+        "observed_count": 8,
+        "row_proportion": 1.0,
+        "z_score": 0.8054,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 5,
+        "row_proportion": 1.0,
+        "z_score": 0.6367,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 1.0,
+        "z_score": 0.4932,
+        "significant": false
+      },
+      {
+        "protagonist_code": "N",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 1.0,
+        "z_score": 0.4932,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.4027,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.4027,
+        "significant": false
+      },
+      {
+        "protagonist_code": "E",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.2847,
+        "significant": false
+      },
+      {
+        "protagonist_code": "M",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.2847,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Q",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.2847,
+        "significant": false
+      },
+      {
+        "protagonist_code": "R",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.2847,
+        "significant": false
+      },
+      {
+        "protagonist_code": "S",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.2847,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Y",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.2847,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Z",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.2847,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 7,
+        "row_proportion": 0.875,
+        "z_score": -0.5369,
+        "significant": false
+      }
+    ]
+  },
+  "7296_d_lag0": {
+    "sn": 7296,
+    "label": "為美好世界",
+    "rater": "d",
+    "lag": 0,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "Z",
+        "danmaku_code": "F",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 6.4031,
+        "significant": true
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "B",
+        "observed_count": 1,
+        "row_proportion": 0.125,
+        "z_score": 1.8773,
+        "significant": false
+      },
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "H",
+        "observed_count": 1,
+        "row_proportion": 0.0667,
+        "z_score": 1.0887,
+        "significant": false
+      },
+      {
+        "protagonist_code": "R",
+        "danmaku_code": "@C",
+        "observed_count": 5,
+        "row_proportion": 1.0,
+        "z_score": 0.6202,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 4,
+        "row_proportion": 1.0,
+        "z_score": 0.5547,
+        "significant": false
+      },
+      {
+        "protagonist_code": "N",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 1.0,
+        "z_score": 0.4804,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.3922,
+        "significant": false
+      },
+      {
+        "protagonist_code": "A",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.2774,
+        "significant": false
+      },
+      {
+        "protagonist_code": "G",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.2774,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.2774,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.2774,
+        "significant": false
+      },
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "@C",
+        "observed_count": 14,
+        "row_proportion": 0.9333,
+        "z_score": 0.0716,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 7,
+        "row_proportion": 0.875,
+        "z_score": -0.5883,
+        "significant": false
+      }
+    ]
+  },
+  "7296_d_lag1": {
+    "sn": 7296,
+    "label": "為美好世界",
+    "rater": "d",
+    "lag": 1,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "N",
+        "danmaku_code": "H",
+        "observed_count": 1,
+        "row_proportion": 0.3333,
+        "z_score": 3.4689,
+        "significant": true
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "B",
+        "observed_count": 1,
+        "row_proportion": 0.125,
+        "z_score": 1.8448,
+        "significant": false
+      },
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "F",
+        "observed_count": 1,
+        "row_proportion": 0.0667,
+        "z_score": 1.0614,
+        "significant": false
+      },
+      {
+        "protagonist_code": "R",
+        "danmaku_code": "@C",
+        "observed_count": 5,
+        "row_proportion": 1.0,
+        "z_score": 0.6283,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 1.0,
+        "z_score": 0.4867,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.3974,
+        "significant": false
+      },
+      {
+        "protagonist_code": "A",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.281,
+        "significant": false
+      },
+      {
+        "protagonist_code": "G",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.281,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.281,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.281,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Z",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.281,
+        "significant": false
+      },
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "@C",
+        "observed_count": 14,
+        "row_proportion": 0.9333,
+        "z_score": 0.0967,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 7,
+        "row_proportion": 0.875,
+        "z_score": -0.5629,
+        "significant": false
+      },
+      {
+        "protagonist_code": "N",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 0.6667,
+        "z_score": -1.7304,
+        "significant": false
+      }
+    ]
+  },
+  "7296_d_lag2": {
+    "sn": 7296,
+    "label": "為美好世界",
+    "rater": "d",
+    "lag": 2,
+    "n_windows": 42,
+    "paths": [
+      {
+        "protagonist_code": "A",
+        "danmaku_code": "B",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 6.245,
+        "significant": true
+      },
+      {
+        "protagonist_code": "G",
+        "danmaku_code": "F",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 6.245,
+        "significant": true
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "H",
+        "observed_count": 1,
+        "row_proportion": 0.1429,
+        "z_score": 1.9973,
+        "significant": true
+      },
+      {
+        "protagonist_code": "F",
+        "danmaku_code": "@C",
+        "observed_count": 15,
+        "row_proportion": 1.0,
+        "z_score": 1.1028,
+        "significant": false
+      },
+      {
+        "protagonist_code": "R",
+        "danmaku_code": "@C",
+        "observed_count": 5,
+        "row_proportion": 1.0,
+        "z_score": 0.6367,
+        "significant": false
+      },
+      {
+        "protagonist_code": "N",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 1.0,
+        "z_score": 0.4932,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@B",
+        "danmaku_code": "@C",
+        "observed_count": 3,
+        "row_proportion": 1.0,
+        "z_score": 0.4932,
+        "significant": false
+      },
+      {
+        "protagonist_code": "@A",
+        "danmaku_code": "@C",
+        "observed_count": 2,
+        "row_proportion": 1.0,
+        "z_score": 0.4027,
+        "significant": false
+      },
+      {
+        "protagonist_code": "K",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.2847,
+        "significant": false
+      },
+      {
+        "protagonist_code": "U",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.2847,
+        "significant": false
+      },
+      {
+        "protagonist_code": "Z",
+        "danmaku_code": "@C",
+        "observed_count": 1,
+        "row_proportion": 1.0,
+        "z_score": 0.2847,
+        "significant": false
+      },
+      {
+        "protagonist_code": "X",
+        "danmaku_code": "@C",
+        "observed_count": 6,
+        "row_proportion": 0.8571,
+        "z_score": -0.6816,
+        "significant": false
+      }
+    ]
+  }
+}
